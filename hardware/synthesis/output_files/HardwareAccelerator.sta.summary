@@ -1,0 +1,85 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'ACCELERATOR_Clk_50'
+Slack : -136.480
+TNS   : -148448.239
+
+Type  : Slow 1100mV 85C Model Hold 'ACCELERATOR_Clk_50'
+Slack : 0.106
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'ACCELERATOR_Clk_50'
+Slack : 3.069
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'ACCELERATOR_Clk_50'
+Slack : 0.851
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'ACCELERATOR_Clk_50'
+Slack : 8.820
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'ACCELERATOR_Clk_50'
+Slack : -136.040
+TNS   : -147492.367
+
+Type  : Slow 1100mV 0C Model Hold 'ACCELERATOR_Clk_50'
+Slack : 0.138
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'ACCELERATOR_Clk_50'
+Slack : 3.371
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'ACCELERATOR_Clk_50'
+Slack : 0.807
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'ACCELERATOR_Clk_50'
+Slack : 8.833
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'ACCELERATOR_Clk_50'
+Slack : -74.653
+TNS   : -75861.300
+
+Type  : Fast 1100mV 85C Model Hold 'ACCELERATOR_Clk_50'
+Slack : 0.110
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'ACCELERATOR_Clk_50'
+Slack : 5.511
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'ACCELERATOR_Clk_50'
+Slack : 0.471
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'ACCELERATOR_Clk_50'
+Slack : 8.407
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'ACCELERATOR_Clk_50'
+Slack : -68.053
+TNS   : -68046.736
+
+Type  : Fast 1100mV 0C Model Hold 'ACCELERATOR_Clk_50'
+Slack : 0.113
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'ACCELERATOR_Clk_50'
+Slack : 5.885
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'ACCELERATOR_Clk_50'
+Slack : 0.426
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'ACCELERATOR_Clk_50'
+Slack : 8.365
+TNS   : 0.000
+
+------------------------------------------------------------

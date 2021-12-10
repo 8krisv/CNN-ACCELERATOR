@@ -1,0 +1,421 @@
+{/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/PEDC_STATEMACHINE.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/PEDC_STATEMACHINE.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PEDC_STATEMACHINE
+
+Top level modules:
+	PEDC_STATEMACHINE
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/FCLOCK.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/FCLOCK.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FCLOCK
+
+Top level modules:
+	FCLOCK
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/DEMUX_1_11.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/DEMUX_1_11.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DEMUX_1_11
+
+Top level modules:
+	DEMUX_1_11
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ADDER_STATEMACHINE.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ADDER_STATEMACHINE.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ADDER_STATEMACHINE
+
+Top level modules:
+	ADDER_STATEMACHINE
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_OFFSET_NEG.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_OFFSET_NEG.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module COUNTER_OFFSET_NEG
+
+Top level modules:
+	COUNTER_OFFSET_NEG
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RAM.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RAM.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RAM
+
+Top level modules:
+	RAM
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ONEDCONV_STATEMACHINE.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ONEDCONV_STATEMACHINE.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ONEDCONV_STATEMACHINE
+
+Top level modules:
+	ONEDCONV_STATEMACHINE
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/SIMPLE_COUNTER.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/SIMPLE_COUNTER.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SIMPLE_COUNTER
+
+Top level modules:
+	SIMPLE_COUNTER
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_CH.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_CH.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module COUNTER_CH
+
+Top level modules:
+	COUNTER_CH
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/DEMUX_169.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/DEMUX_169.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DEMUX_169
+
+Top level modules:
+	DEMUX_169
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ACCELERATOR.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ACCELERATOR.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ACCELERATOR
+
+Top level modules:
+	ACCELERATOR
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/OFMI_tb.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/OFMI_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module OFMI_tb
+
+Top level modules:
+	OFMI_tb
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/CONFI_REGS.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/CONFI_REGS.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CONFI_REGS
+
+Top level modules:
+	CONFI_REGS
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_OFFSET_POS.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_OFFSET_POS.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module COUNTER_OFFSET_POS
+
+Top level modules:
+	COUNTER_OFFSET_POS
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RAM_SIM.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RAM_SIM.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RAM_SIM
+
+Top level modules:
+	RAM_SIM
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OMDC.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OMDC.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module OMDC
+
+Top level modules:
+	OMDC
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/DEMUX_1_2.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/DEMUX_1_2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DEMUX_1_2
+
+Top level modules:
+	DEMUX_1_2
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/CONV_SELECTOR.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/CONV_SELECTOR.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CONV_SELECTOR
+
+Top level modules:
+	CONV_SELECTOR
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MEMCH_STATEMACHINE.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MEMCH_STATEMACHINE.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MEMCH_STATEMACHINE
+
+Top level modules:
+	MEMCH_STATEMACHINE
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ADDER.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ADDER.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ADDER
+
+Top level modules:
+	ADDER
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OFMI_STATEMACHINE.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OFMI_STATEMACHINE.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module OFMI_STATEMACHINE
+
+Top level modules:
+	OFMI_STATEMACHINE
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_NEG.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_NEG.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module COUNTER_NEG
+
+Top level modules:
+	COUNTER_NEG
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MUXDC.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MUXDC.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUXDC
+
+Top level modules:
+	MUXDC
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/ACC_AVALON_INTERFACE_tb.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/ACC_AVALON_INTERFACE_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ACC_AVALON_INTERFACE_tb
+
+Top level modules:
+	ACC_AVALON_INTERFACE_tb
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MUX169.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MUX169.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX_169
+
+Top level modules:
+	MUX_169
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OWMC_STATEMACHINE.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OWMC_STATEMACHINE.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module OWMC_STATEMACHINE
+
+Top level modules:
+	OWMC_STATEMACHINE
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/SET_CLR.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/SET_CLR.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SET_CLR
+
+Top level modules:
+	SET_CLR
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/FIFO.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/FIFO.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FIFO
+
+Top level modules:
+	FIFO
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RBUS.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RBUS.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RBUS
+
+Top level modules:
+	RBUS
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/WREG.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/WREG.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module WREG
+
+Top level modules:
+	WREG
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OFFSET_ADDER.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OFFSET_ADDER.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module OFFSET_ADDER
+
+Top level modules:
+	OFFSET_ADDER
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ONEDCONV_SET_EN.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ONEDCONV_SET_EN.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ONEDCONV_SET_EN
+
+Top level modules:
+	ONEDCONV_SET_EN
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_POS.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_POS.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module COUNTER_POS
+
+Top level modules:
+	COUNTER_POS
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/STRIDE_CLEAR.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/STRIDE_CLEAR.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module STRIDE_CLEAR
+
+Top level modules:
+	STRIDE_CLEAR
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MUX_2_1.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MUX_2_1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX_2_1
+
+Top level modules:
+	MUX_2_1
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/DEMUX_1_3.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/DEMUX_1_3.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DEMUX_1_3
+
+Top level modules:
+	DEMUX_1_3
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/PE_tb.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/PE_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PE_tb
+
+Top level modules:
+	PE_tb
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/ACCELERATOR_tb.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/ACCELERATOR_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ACCELERATOR_tb
+
+Top level modules:
+	ACCELERATOR_tb
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MAIN_STM.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MAIN_STM.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MAIN_STM
+
+Top level modules:
+	MAIN_STM
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_LOAD_NEG.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_LOAD_NEG.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module COUNTER_LOAD_NEG
+
+Top level modules:
+	COUNTER_LOAD_NEG
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RBUS_STATEMACHINE.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RBUS_STATEMACHINE.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RBUS_STATEMACHINE
+
+Top level modules:
+	RBUS_STATEMACHINE
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ONEDCONV_OEN.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ONEDCONV_OEN.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ONEDCONV_OEN
+
+Top level modules:
+	ONEDCONV_OEN
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_NEXT_ROW.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_NEXT_ROW.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module COUNTER_NEXT_ROW
+
+Top level modules:
+	COUNTER_NEXT_ROW
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OUT_REG.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OUT_REG.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module OUT_REG
+
+Top level modules:
+	OUT_REG
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/OMDC_tb.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/OMDC_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module OMDC_tb
+
+Top level modules:
+	OMDC_tb
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MUXDC_STATEMACHINE.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MUXDC_STATEMACHINE.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUXDC_STATEMACHINE
+
+Top level modules:
+	MUXDC_STATEMACHINE
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/CHANNEL_MEM.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/CHANNEL_MEM.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CHANNEL_MEM
+
+Top level modules:
+	CHANNEL_MEM
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/CALC_UNIT.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/CALC_UNIT.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CALC_UNIT
+
+Top level modules:
+	CALC_UNIT
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OEN_CLR.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OEN_CLR.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module OEN_CLR
+
+Top level modules:
+	OEN_CLR
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OFMI.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OFMI.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module OFMI
+
+Top level modules:
+	OFMI
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RAM_SIM.sv} {1 {vlog -work work -sv -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RAM_SIM.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RAM_SIM
+
+Top level modules:
+	RAM_SIM
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/PEDC.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/PEDC.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PEDC
+
+Top level modules:
+	PEDC
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/MUXDC_tb.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/MUXDC_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUXDC_tb
+
+Top level modules:
+	MUXDC_tb
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OMDC_STATEMACHINE.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OMDC_STATEMACHINE.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module OMDC_STATEMACHINE
+
+Top level modules:
+	OMDC_STATEMACHINE
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MEMORIES_CHANNEL.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MEMORIES_CHANNEL.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MEMORIES_CHANNEL
+
+Top level modules:
+	MEMORIES_CHANNEL
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RAM_SIMUL.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RAM_SIMUL.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RAM_SIMUL
+
+Top level modules:
+	RAM_SIMUL
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ONEDCONV.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ONEDCONV.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ONEDCONV
+
+Top level modules:
+	ONEDCONV
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ACCELERATOR_AVALON_INTERFACE.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ACCELERATOR_AVALON_INTERFACE.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ACCELERATOR_AVALON_INTERFACE
+
+Top level modules:
+	ACCELERATOR_AVALON_INTERFACE
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/PE.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/PE.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PE
+
+Top level modules:
+	PE
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OWMC.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OWMC.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module OWMC
+
+Top level modules:
+	OWMC
+
+} {} {}}

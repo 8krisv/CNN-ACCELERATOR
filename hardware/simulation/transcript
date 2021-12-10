@@ -1,0 +1,67 @@
+# reading modelsim.ini
+# Loading project AcceleratorSimulations
+vsim work.ACC_AVALON_INTERFACE_tb
+# vsim work.ACC_AVALON_INTERFACE_tb 
+# Start time: 20:38:34 on Dec 07,2021
+# Loading sv_std.std
+# Loading work.ACC_AVALON_INTERFACE_tb
+# Loading work.RAM_SIM
+# Loading work.ACCELERATOR_AVALON_INTERFACE
+# Loading work.CONFI_REGS
+# Loading work.OUT_REG
+# Loading work.DEMUX_1_11
+# Loading work.ACCELERATOR
+# Loading work.OWMC
+# Loading work.RAM
+# Loading work.COUNTER_NEG
+# Loading work.COUNTER_OFFSET_NEG
+# Loading work.OFFSET_ADDER
+# Loading work.OWMC_STATEMACHINE
+# Loading work.OFMI
+# Loading work.COUNTER_OFFSET_POS
+# Loading work.OFMI_STATEMACHINE
+# Loading work.DEMUX_1_2
+# Loading work.OMDC
+# Loading work.COUNTER_POS
+# Loading work.COUNTER_LOAD_NEG
+# Loading work.STRIDE_CLEAR
+# Loading work.OMDC_STATEMACHINE
+# Loading work.ONEDCONV
+# Loading work.ONEDCONV_STATEMACHINE
+# Loading work.COUNTER_NEXT_ROW
+# Loading work.ONEDCONV_SET_EN
+# Loading work.SET_CLR
+# Loading work.ONEDCONV_OEN
+# Loading work.CONV_SELECTOR
+# Loading work.DEMUX_169
+# Loading work.WREG
+# Loading work.PE
+# Loading work.PEDC
+# Loading work.PEDC_STATEMACHINE
+# Loading work.FCLOCK
+# Loading work.FIFO
+# Loading work.MUX_2_1
+# Loading work.CALC_UNIT
+# Loading work.MUX_169
+# Loading work.MEMORIES_CHANNEL
+# Loading work.DEMUX_1_3
+# Loading work.COUNTER_CH
+# Loading work.CHANNEL_MEM
+# Loading work.MEMCH_STATEMACHINE
+# Loading work.ADDER
+# Loading work.SIMPLE_COUNTER
+# Loading work.ADDER_STATEMACHINE
+# Loading work.RBUS
+# Loading work.RBUS_STATEMACHINE
+# Loading work.MUXDC
+# Loading work.MUXDC_STATEMACHINE
+# Loading work.MAIN_STM
+run -all
+# Iniciando Test...
+# Procesando archivo ../../files/IF/memv/4-vin.txt ...
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 20:39:32 on Dec 07,2021, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 1
+# Compile of ACC_AVALON_INTERFACE_tb.sv was successful.

@@ -1,0 +1,137 @@
+/*#########################################################################
+//# On-chip weight memory controller 
+//#########################################################################
+//#
+//# Copyright (C) 2021 Jose Maria Jaramillo Hoyos 
+//# 
+//# This program is free software: you can redistribute it and/or modify
+//# it under the terms of the GNU General Public License as published by
+//# the Free Software Foundation, either version 3 of the License, or
+//# (at your option) any later version.
+//#
+//# This program is distributed in the hope that it will be useful,
+//# but WITHOUT ANY WARRANTY; without even the implied warranty of
+//# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//# GNU General Public License for more details.
+//#
+//# You should have received a copy of the GNU General Public License
+//# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+//#
+//########################################################################*/
+
+module OWMC #(parameter W_DATA_WIDTH = 8, W_MEM_SIZE=169  ,W_ADDR_WIDTH = 10)(
+
+/////////// INPUTS //////////
+OWMC_Clk,
+OWMC_Reset,
+OWMC_W_Size,
+OWMC_Input_Data,
+OWMC_Start_Loading_Weights,
+OWMC_Start_Loading_Regs,
+OWMC_Loading_Weights_Already_Ok,
+OWMC_Loading_Regs_Already_Ok,
+
+//////////// OUTPUTS //////////
+OWMC_Loading_Weights_Already,
+OWMC_Loading_Regs_Already,
+OWMC_Output_Data,
+OWMC_Muxes_En,
+OWMC_Muxes_Sel
+
+);
+//=======================================================
+//  PORT declarations
+//=======================================================
+input OWMC_Clk;
+input OWMC_Reset;
+input [W_DATA_WIDTH-1:0] OWMC_Input_Data;
+input [W_ADDR_WIDTH-1:0] OWMC_W_Size;
+input OWMC_Start_Loading_Weights;
+input OWMC_Start_Loading_Regs;
+input OWMC_Loading_Weights_Already_Ok;
+input OWMC_Loading_Regs_Already_Ok;
+
+output OWMC_Loading_Weights_Already;
+output OWMC_Loading_Regs_Already;
+output [W_DATA_WIDTH-1:0] OWMC_Output_Data;
+output OWMC_Muxes_En;
+output [W_ADDR_WIDTH-1:0] OWMC_Muxes_Sel;
+
+
+
+//=======================================================
+//  REG/WIRE DECLARATIONS
+//=======================================================
+
+wire [W_ADDR_WIDTH-1:0] COUNTER_Out_Wire;
+wire COUNTER_Eqn_Flag_Wire;
+wire OWMC_STATEMACHINE_Counter_En_Wire;
+wire OWMC_STATEMACHINE_Counter_Reset_Wire;
+wire OWMC_STATEMACHINE_Ram_Oe_Wire;
+wire OWMC_STATEMACHINE_Ram_We_Wire;
+
+
+//=======================================================
+//  Structural coding
+//=======================================================
+
+RAM #(.DATA_WIDTH(W_DATA_WIDTH),.MEM_SIZE(W_MEM_SIZE),.ADDR_WIDTH(W_ADDR_WIDTH)) OWM
+(
+
+//// INPUTS ////
+.RAM_Clk(OWMC_Clk),
+.RAM_We(OWMC_STATEMACHINE_Ram_We_Wire),
+.RAM_Oe(OWMC_STATEMACHINE_Ram_Oe_Wire),
+.RAM_Address(COUNTER_Out_Wire),
+.RAM_Data_In(OWMC_Input_Data),
+
+//// OUTPUTS ////
+.RAM_Data_Out(OWMC_Output_Data)
+);
+
+
+
+COUNTER_NEG #(.BITS_WIDTH(W_ADDR_WIDTH)) Counter (
+//// INPUTS ////
+.COUNTER_Clk(OWMC_Clk),
+.COUNTER_Clr(OWMC_STATEMACHINE_Counter_Reset_Wire),
+.COUNTER_En(OWMC_STATEMACHINE_Counter_En_Wire),
+.COUNTER_Number(OWMC_W_Size),
+
+//// OUTPUTS ////
+.COUNTER_Out(COUNTER_Out_Wire),
+.COUNTER_Eqn_Flag(COUNTER_Eqn_Flag_Wire)
+);
+
+
+OWMC_STATEMACHINE Owmc_Statemachine (
+
+//// INPUTS ////
+.OWMC_STATEMACHINE_Clk(OWMC_Clk),
+.OWMC_STATEMACHINE_Reset(OWMC_Reset),
+.OWMC_STATEMACHINE_Start_Loading_Weights(OWMC_Start_Loading_Weights),
+.OWMC_STATEMACHINE_Start_Loading_Regs(OWMC_Start_Loading_Regs),
+.OWMC_STATEMACHINE_Loading_Weights_Already_Ok(OWMC_Loading_Weights_Already_Ok),
+.OWMC_STATEMACHINE_Loading_Regs_Already_Ok(OWMC_Loading_Regs_Already_Ok),
+.OWMC_STATEMACHINE_Counter_Finish_Already(COUNTER_Eqn_Flag_Wire),
+
+//// OUTPUTS ////
+.OWMC_STATEMACHINE_Loading_Weights_Already(OWMC_Loading_Weights_Already),
+.OWMC_STATEMACHINE_Loading_Regs_Already(OWMC_Loading_Regs_Already),
+.OWMC_STATEMACHINE_Counter_En(OWMC_STATEMACHINE_Counter_En_Wire),
+.OWMC_STATEMACHINE_Counter_Reset(OWMC_STATEMACHINE_Counter_Reset_Wire),
+.OWMC_STATEMACHINE_Muxes_en(OWMC_Muxes_En),
+.OWMC_STATEMACHINE_Ram_Oe(OWMC_STATEMACHINE_Ram_Oe_Wire),
+.OWMC_STATEMACHINE_Ram_We(OWMC_STATEMACHINE_Ram_We_Wire)
+
+);
+
+//============================================================
+// COMBINATIONAL OUTPUT LOGIC
+//============================================================
+
+assign OWMC_Muxes_Sel=COUNTER_Out_Wire;
+
+
+
+endmodule

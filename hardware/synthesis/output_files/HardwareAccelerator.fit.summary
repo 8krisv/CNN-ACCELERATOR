@@ -1,0 +1,20 @@
+Fitter Status : Successful - Wed Oct 27 01:06:55 2021
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : HardwareAccelerator
+Top-level Entity Name : ACCELERATOR
+Family : Cyclone V
+Device : 5CSEMA4U23C6
+Timing Models : Final
+Logic utilization (in ALMs) : 3,755 / 15,880 ( 24 % )
+Total registers : 3737
+Total pins : 130 / 314 ( 41 % )
+Total virtual pins : 0
+Total block memory bits : 471,984 / 2,764,800 ( 17 % )
+Total RAM Blocks : 79 / 270 ( 29 % )
+Total DSP Blocks : 41 / 84 ( 49 % )
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0 / 5 ( 0 % )
+Total DLLs : 0 / 4 ( 0 % )

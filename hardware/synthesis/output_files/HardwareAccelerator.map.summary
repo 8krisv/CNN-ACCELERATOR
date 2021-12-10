@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Fri Oct 29 18:05:19 2021
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : HardwareAccelerator
+Top-level Entity Name : ACCELERATOR_AVALON_INTERFACE
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 4595
+Total pins : 164
+Total virtual pins : 0
+Total block memory bits : 471,984
+Total DSP Blocks : 41
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

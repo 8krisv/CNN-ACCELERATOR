@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><intel_fpga_monitor_program_project version="1.0">
+    <architecture>Nios II</architecture>
+    <system>
+        <system_info filepath="true">../nios_system.sopcinfo</system_info>
+        <system_sof filepath="true">../output_files/nios_sys.sof</system_sof>
+        <board>DE0-Nano-SoC</board>
+        <cable>DE-SoC [1-4]</cable>
+        <processor>nios2_gen2_0</processor>
+        <reset_processor_during_load>true</reset_processor_during_load>
+        <terminal>jtag_uart_0</terminal>
+    </system>
+    <program>
+        <type>C Program</type>
+        <source_files>
+            <source_file filepath="true">load_conf.c</source_file>
+            <source_file filepath="true">amp/lib/src/niosII_jtag_uart.c</source_file>
+        </source_files>
+        <options>
+            <compiler_flags>-g -O1 -ffunction-sections -fverbose-asm -fno-inline -mno-cache-volatile</compiler_flags>
+            <emulate_unimpl_instructions>true</emulate_unimpl_instructions>
+            <use_small_c_library>false</use_small_c_library>
+        </options>
+        <linker_sections type="Custom">
+            <linker_section name=".text">
+                <memory_device>onchip_Ir_memory.s1</memory_device>
+                <base_address>0x00002000</base_address>
+                <end_address>0x00002FFF</end_address>
+                <required_section/>
+            </linker_section>
+        </linker_sections>
+    </program>
+</intel_fpga_monitor_program_project>

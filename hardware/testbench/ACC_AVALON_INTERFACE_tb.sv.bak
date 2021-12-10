@@ -1,0 +1,232 @@
+/*#########################################################################
+//# Testbench for top module Avalon interface ACCELERATOR_AVALON_INTERFACE
+//#########################################################################
+//#
+//# Copyright (C) 2021 Jose Maria Jaramillo Hoyos
+//# 
+//# This program is free software: you can redistribute it and/or modify
+//# it under the terms of the GNU General Public License as published by
+//# the Free Software Foundation, either version 3 of the License, or
+//# (at your option) any later version.
+//#
+//# This program is distributed in the hope that it will be useful,
+//# but WITHOUT ANY WARRANTY; without even the implied warranty of
+//# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//# GNU General Public License for more details.
+//#
+//# You should have received a copy of the GNU General Public License
+//# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+//#
+//########################################################################*/
+
+`timescale 1 ns/1 ps
+
+module ACC_AVALON_INTERFACE_tb();
+
+integer i;
+parameter OFFMEM_DATA_WIDTH = 32;
+parameter OFFMEM_ADDR_WIDTH = 32;
+parameter MAX_OFFMEM_SIZE =1000;
+
+//////////// INPUTS //////////
+reg tb_clk_50;
+reg tb_reset;
+reg tb_m0_waitrequest;
+reg [3:0] tb_s0_adress;
+reg tb_s0_read;
+reg tb_s0_write;
+reg [31:0] tb_s0_writedata;
+reg tb_s0_chipselect;
+reg tb_Counduit_Same_W;
+reg tb_Counduit_Start;
+reg tb_Counduit_Finished_Ok;
+reg tb_ram_save;
+
+//////////// OUTPUTS //////////
+wire [31:0] tb_m0_adress;
+wire [3:0] tb_m0_byteenable;
+wire tb_m0_read;
+wire [31:0] tb_s0_readdata;
+wire tb_m0_write;
+wire [31:0] tb_m0_writedata;
+wire tb_Counduit_Finished;
+wire [31:0] ram_data_out;
+
+
+localparam [31:0]  Addr_Offset=0;
+localparam [31:0]  If_Rows=8;
+localparam [31:0]  If_Colums=8;
+localparam [31:0]  If_Channels=3;
+localparam [31:0]  Of_Rows=6;
+localparam [31:0]  Of_Colums=6;
+localparam [31:0]  W_Rows=3;
+localparam [31:0]  W_Colums=3;
+localparam [31:0]  W_Channels=3;
+localparam [31:0]  Stride=1;
+
+
+//////////// Device Under Test (DUT) instantiation //////////
+
+RAM_SIM #(
+.DATA_WIDTH(OFFMEM_DATA_WIDTH),
+.MEM_SIZE(MAX_OFFMEM_SIZE),
+.ADDR_WIDTH(OFFMEM_ADDR_WIDTH)) OffchipRam
+
+(
+
+//// INPUTS ////
+.RAM_SIM_Clk(tb_clk_50),
+.RAM_SIM_We(tb_m0_write),
+.RAM_SIM_Oe(tb_m0_read),
+.RAM_SIM_Save(tb_ram_save),
+.RAM_SIM_Address(tb_m0_adress),
+.RAM_SIM_Data_In(tb_m0_writedata),
+
+//// OUTPUTS ////
+.RAM_SIM_Data_Out(ram_data_out)
+
+);
+
+
+ACCELERATOR_AVALON_INTERFACE Av_is(
+
+
+//////////// INPUTS //////////
+.AVS_Clk(tb_clk_50),
+.AVS_Reset(tb_reset),
+.AVS_m0_readdata(ram_data_out),
+.AVS_m0_waitrequest(tb_m0_waitrequest),
+.AVS_s0_adress(tb_s0_adress),
+.AVS_s0_read(tb_s0_read),
+.AVS_s0_write(tb_s0_write),
+.AVS_s0_writedata(tb_s0_writedata),
+.AVS_s0_chipselect(tb_s0_chipselect),
+.AVS_Counduit_Same_W(tb_Counduit_Same_W),
+.AVS_Counduit_Start(tb_Counduit_Start),
+.AVS_Counduit_Finished_Ok(tb_Counduit_Finished_Ok),
+
+//////////// OUTPUTS //////////
+.AVS_m0_adress(tb_m0_adress),
+.AVS_m0_byteenable(tb_m0_byteenable),
+.AVS_m0_read(tb_m0_read),
+.AVS_s0_readdata(tb_s0_readdata),
+.AVS_m0_write(tb_m0_write),
+.AVS_m0_writedata(tb_m0_writedata),
+.AVS_Counduit_Finished(tb_Counduit_Finished)
+);
+
+
+
+//////////// create a 50Mhz clock //////////
+always
+begin
+		tb_clk_50=1'b1;
+		#10;
+		tb_clk_50=1'b0;
+		#10;
+end
+
+
+initial
+
+begin
+
+	tb_m0_waitrequest<=1'b0;
+	tb_s0_adress<=4'd0;
+	tb_s0_read<=1'b0;
+	tb_s0_write<=1'b0;
+	tb_s0_writedata<=32'b0;
+	tb_s0_chipselect<=1'b0;
+	tb_Counduit_Same_W<=1'b0;
+	tb_Counduit_Start<=1'b0;
+	tb_Counduit_Finished_Ok<=1'b0;
+	tb_reset<=1'b0;
+	tb_ram_save<=1'b0;
+		
+	@(negedge tb_clk_50)
+	@(posedge tb_clk_50)
+	tb_reset<=1'b1;
+	
+	@(negedge tb_clk_50)
+	tb_s0_chipselect<=1'b1;
+	tb_s0_write<=1'b1;
+	tb_s0_adress<=4'd0;
+	tb_s0_writedata<=Addr_Offset; /// offset
+	@(posedge tb_clk_50)
+	
+	@(negedge tb_clk_50)
+	tb_s0_adress<=4'd1;
+	tb_s0_writedata<=If_Rows; /// if_rows
+	@(posedge tb_clk_50)
+	
+	@(negedge tb_clk_50)
+	tb_s0_adress<=4'd2;
+	tb_s0_writedata<=If_Colums; /// if_colums
+	@(posedge tb_clk_50)
+	
+	@(negedge tb_clk_50)
+	tb_s0_adress<=4'd3;
+	tb_s0_writedata<=If_Channels; /// if_channels
+	@(posedge tb_clk_50);
+	
+	@(negedge tb_clk_50)
+	tb_s0_adress<=4'd4;
+	tb_s0_writedata<=W_Rows; /// w_rows
+	@(posedge tb_clk_50);
+
+	@(negedge tb_clk_50)
+	tb_s0_adress<=4'd5;
+	tb_s0_writedata<=W_Colums; /// w_colums
+	@(posedge tb_clk_50);
+	
+	@(negedge tb_clk_50)
+	tb_s0_adress<=4'd6;
+	tb_s0_writedata<=W_Channels; /// w_channels
+	@(posedge tb_clk_50);
+	
+	@(negedge tb_clk_50)
+	tb_s0_adress<=4'd7;
+	tb_s0_writedata<=Of_Rows; /// of_rows
+	@(posedge tb_clk_50);
+	
+	@(negedge tb_clk_50)
+	tb_s0_adress<=4'd8;
+	tb_s0_writedata<=Of_Colums; /// of_colums
+	@(posedge tb_clk_50);
+	
+	
+	@(negedge tb_clk_50)
+	tb_s0_adress<=4'd9;
+	tb_s0_writedata<=Stride; /// stride
+	@(posedge tb_clk_50);
+	
+	@(negedge tb_clk_50)
+	@(posedge tb_clk_50)
+	tb_s0_chipselect<=1'b0;
+	tb_s0_write<=1'b0;
+	
+	@(negedge tb_clk_50)
+	@(posedge tb_clk_50)
+	tb_Counduit_Start<=1;
+	@(negedge tb_clk_50)
+	@(posedge tb_clk_50)
+	tb_Counduit_Start<=0;
+	
+	for(i=0;tb_Counduit_Finished==1'b0;i=i+1)begin
+		@(negedge tb_clk_50)
+		@(posedge tb_clk_50);
+	end
+	tb_Counduit_Finished_Ok<=1;
+	tb_ram_save<=1;
+	@(negedge tb_clk_50)
+	@(posedge tb_clk_50);
+	tb_ram_save<=0;
+	
+	$stop;
+	
+	
+end
+
+
+endmodule
+

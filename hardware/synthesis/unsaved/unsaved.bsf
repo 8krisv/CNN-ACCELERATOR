@@ -1,0 +1,60 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 224 144)
+	(text "unsaved" (rect 89 -1 123 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 128 20 140)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "clk_clk" (rect 0 0 27 12)(font "Arial" (font_size 8)))
+		(text "clk_clk" (rect 4 61 46 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 80 72)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "reset_reset_n" (rect 0 0 56 12)(font "Arial" (font_size 8)))
+		(text "reset_reset_n" (rect 4 101 82 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 80 112)(line_width 1))
+	)
+	(drawing
+		(text "clk" (rect 65 43 148 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 85 67 188 144)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 51 83 132 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 85 107 212 224)(font "Arial" (color 0 0 0)))
+		(text " system " (rect 189 128 426 266)(font "Arial" ))
+		(line (pt 80 32)(pt 144 32)(line_width 1))
+		(line (pt 144 32)(pt 144 128)(line_width 1))
+		(line (pt 80 128)(pt 144 128)(line_width 1))
+		(line (pt 80 32)(pt 80 128)(line_width 1))
+		(line (pt 81 52)(pt 81 76)(line_width 1))
+		(line (pt 82 52)(pt 82 76)(line_width 1))
+		(line (pt 81 92)(pt 81 116)(line_width 1))
+		(line (pt 82 92)(pt 82 116)(line_width 1))
+		(line (pt 0 0)(pt 224 0)(line_width 1))
+		(line (pt 224 0)(pt 224 144)(line_width 1))
+		(line (pt 0 144)(pt 224 144)(line_width 1))
+		(line (pt 0 0)(pt 0 144)(line_width 1))
+	)
+)

@@ -1,0 +1,29 @@
+/*#########################################################################
+//# One dimensional convolution module output enable function
+//#########################################################################
+//#
+//# Copyright (C) 2021 Jose Maria Jaramillo Hoyos 
+//# 
+//# This program is free software: you can redistribute it and/or modify
+//# it under the terms of the GNU General Public License as published by
+//# the Free Software Foundation, either version 3 of the License, or
+//# (at your option) any later version.
+//#
+//# This program is distributed in the hope that it will be useful,
+//# but WITHOUT ANY WARRANTY; without even the implied warranty of
+//# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//# GNU General Public License for more details.
+//#
+//# You should have received a copy of the GNU General Public License
+//# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+//#
+//########################################################################*/
+
+module ONEDCONV_OEN #(parameter BITWIDTH_ROW=4, BITWIDTH_IF_ROWS=10, BITWIDTH_OF_COLUMS=11, BITWIDTH_W_ROWS=9, BITWIDTH_STRIDE=4 )(
+
+
+);
+
+
+endmodule
+

@@ -1,0 +1,107 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate "/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/nios_sys/nios_system.qsys" --block-symbol-file --output-directory="/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/nios_sys/nios_system" --family="Cyclone V" --part=5CSEMA4U23C6
+Progress: Loading nios_sys/nios_system.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 20.1]
+Progress: Parameterizing module clk_0
+Progress: Adding cnn_accelerator_avalon_0 [cnn_accelerator_avalon 1.0]
+Progress: Parameterizing module cnn_accelerator_avalon_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 20.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 20.1]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding onchip_Ir_memory [altera_avalon_onchip_memory2 20.1]
+Progress: Parameterizing module onchip_Ir_memory
+Progress: Adding onchip_d_memory [altera_avalon_onchip_memory2 20.1]
+Progress: Parameterizing module onchip_d_memory
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: nios_system.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate "/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/nios_sys/nios_system.qsys" --synthesis=VERILOG --output-directory="/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/nios_sys/nios_system/synthesis" --family="Cyclone V" --part=5CSEMA4U23C6
+Progress: Loading nios_sys/nios_system.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 20.1]
+Progress: Parameterizing module clk_0
+Progress: Adding cnn_accelerator_avalon_0 [cnn_accelerator_avalon 1.0]
+Progress: Parameterizing module cnn_accelerator_avalon_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 20.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 20.1]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding onchip_Ir_memory [altera_avalon_onchip_memory2 20.1]
+Progress: Parameterizing module onchip_Ir_memory
+Progress: Adding onchip_d_memory [altera_avalon_onchip_memory2 20.1]
+Progress: Parameterizing module onchip_d_memory
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: nios_system.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: nios_system: Generating nios_system "nios_system" for QUARTUS_SYNTH
+Info: Interconnect is inserted between master cnn_accelerator_avalon_0.avalon_master and slave onchip_d_memory.s2 because the master has address signal 18 bit wide, but the slave is 10 bit wide.
+Info: Interconnect is inserted between master cnn_accelerator_avalon_0.avalon_master and slave onchip_d_memory.s2 because the master has read signal 1 bit wide, but the slave is 0 bit wide.
+Info: Interconnect is inserted between master cnn_accelerator_avalon_0.avalon_master and slave onchip_d_memory.s2 because the master has waitrequest signal 1 bit wide, but the slave is 0 bit wide.
+Info: cnn_accelerator_avalon_0: "nios_system" instantiated cnn_accelerator_avalon "cnn_accelerator_avalon_0"
+Info: jtag_uart_0: Starting RTL generation for module 'nios_system_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec /home/krisv/intelFPGA_lite/20.1/quartus/linux64/perl/bin/perl -I /home/krisv/intelFPGA_lite/20.1/quartus/linux64/perl/lib -I /home/krisv/intelFPGA_lite/20.1/quartus/sopc_builder/bin/europa -I /home/krisv/intelFPGA_lite/20.1/quartus/sopc_builder/bin -I /home/krisv/intelFPGA_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/krisv/intelFPGA_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- /home/krisv/intelFPGA_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=nios_system_jtag_uart_0 --dir=/tmp/alt8955_6499539548000485576.dir/0134_jtag_uart_0_gen/ --quartus_dir=/home/krisv/intelFPGA_lite/20.1/quartus --verilog --config=/tmp/alt8955_6499539548000485576.dir/0134_jtag_uart_0_gen//nios_system_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0: Done RTL generation for module 'nios_system_jtag_uart_0'
+Info: jtag_uart_0: "nios_system" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: nios2_gen2_0: "nios_system" instantiated altera_nios2_gen2 "nios2_gen2_0"
+Info: onchip_Ir_memory: Starting RTL generation for module 'nios_system_onchip_Ir_memory'
+Info: onchip_Ir_memory:   Generation command is [exec /home/krisv/intelFPGA_lite/20.1/quartus/linux64/perl/bin/perl -I /home/krisv/intelFPGA_lite/20.1/quartus/linux64/perl/lib -I /home/krisv/intelFPGA_lite/20.1/quartus/sopc_builder/bin/europa -I /home/krisv/intelFPGA_lite/20.1/quartus/sopc_builder/bin -I /home/krisv/intelFPGA_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/krisv/intelFPGA_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- /home/krisv/intelFPGA_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=nios_system_onchip_Ir_memory --dir=/tmp/alt8955_6499539548000485576.dir/0135_onchip_Ir_memory_gen/ --quartus_dir=/home/krisv/intelFPGA_lite/20.1/quartus --verilog --config=/tmp/alt8955_6499539548000485576.dir/0135_onchip_Ir_memory_gen//nios_system_onchip_Ir_memory_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_Ir_memory: Done RTL generation for module 'nios_system_onchip_Ir_memory'
+Info: onchip_Ir_memory: "nios_system" instantiated altera_avalon_onchip_memory2 "onchip_Ir_memory"
+Info: onchip_d_memory: Starting RTL generation for module 'nios_system_onchip_d_memory'
+Info: onchip_d_memory:   Generation command is [exec /home/krisv/intelFPGA_lite/20.1/quartus/linux64/perl/bin/perl -I /home/krisv/intelFPGA_lite/20.1/quartus/linux64/perl/lib -I /home/krisv/intelFPGA_lite/20.1/quartus/sopc_builder/bin/europa -I /home/krisv/intelFPGA_lite/20.1/quartus/sopc_builder/bin -I /home/krisv/intelFPGA_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/krisv/intelFPGA_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- /home/krisv/intelFPGA_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=nios_system_onchip_d_memory --dir=/tmp/alt8955_6499539548000485576.dir/0136_onchip_d_memory_gen/ --quartus_dir=/home/krisv/intelFPGA_lite/20.1/quartus --verilog --config=/tmp/alt8955_6499539548000485576.dir/0136_onchip_d_memory_gen//nios_system_onchip_d_memory_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_d_memory: Done RTL generation for module 'nios_system_onchip_d_memory'
+Info: onchip_d_memory: "nios_system" instantiated altera_avalon_onchip_memory2 "onchip_d_memory"
+Info: mm_interconnect_0: "nios_system" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_1: "nios_system" instantiated altera_mm_interconnect "mm_interconnect_1"
+Info: irq_mapper: "nios_system" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "nios_system" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'nios_system_nios2_gen2_0_cpu'
+Info: cpu:   Generation command is [exec /home/krisv/intelFPGA_lite/20.1/quartus/linux64//perl/bin/perl -I /home/krisv/intelFPGA_lite/20.1/quartus/linux64//perl/lib -I /home/krisv/intelFPGA_lite/20.1/quartus/sopc_builder/bin/europa -I /home/krisv/intelFPGA_lite/20.1/quartus/sopc_builder/bin -I /home/krisv/intelFPGA_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I /home/krisv/intelFPGA_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I /home/krisv/intelFPGA_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I /home/krisv/intelFPGA_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- /home/krisv/intelFPGA_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.pl --name=nios_system_nios2_gen2_0_cpu --dir=/tmp/alt8955_6499539548000485576.dir/0139_cpu_gen/ --quartus_bindir=/home/krisv/intelFPGA_lite/20.1/quartus/linux64/ --verilog --config=/tmp/alt8955_6499539548000485576.dir/0139_cpu_gen//nios_system_nios2_gen2_0_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2021.11.24 15:05:01 (*) Starting Nios II generation
+Info: cpu: # 2021.11.24 15:05:01 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2021.11.24 15:05:01 (*)   Creating all objects for CPU
+Info: cpu: # 2021.11.24 15:05:02 (*)   Generating RTL from CPU objects
+Info: cpu: # 2021.11.24 15:05:02 (*)   Creating plain-text RTL
+Info: cpu: # 2021.11.24 15:05:02 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'nios_system_nios2_gen2_0_cpu'
+Info: cpu: "nios2_gen2_0" instantiated altera_nios2_gen2_unit "cpu"
+Info: cnn_accelerator_avalon_0_avalon_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "cnn_accelerator_avalon_0_avalon_master_translator"
+Info: onchip_d_memory_s2_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "onchip_d_memory_s2_translator"
+Info: nios2_gen2_0_data_master_agent: "mm_interconnect_1" instantiated altera_merlin_master_agent "nios2_gen2_0_data_master_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent: "mm_interconnect_1" instantiated altera_merlin_slave_agent "jtag_uart_0_avalon_jtag_slave_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_1" instantiated altera_avalon_sc_fifo "jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_1" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_1" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_1" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_1" instantiated altera_merlin_router "router_003"
+Info: cmd_demux: "mm_interconnect_1" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_1" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_1" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_001: "mm_interconnect_1" instantiated altera_merlin_multiplexer "cmd_mux_001"
+Info: Reusing file /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/nios_sys/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_1" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_001: "mm_interconnect_1" instantiated altera_merlin_demultiplexer "rsp_demux_001"
+Info: rsp_mux: "mm_interconnect_1" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/nios_sys/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_1" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/nios_sys/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_1" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: nios_system: Done "nios_system" with 30 modules, 93 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

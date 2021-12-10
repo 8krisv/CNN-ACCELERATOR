@@ -1,0 +1,166 @@
+
+State Machine - |ACCELERATOR_AVALON_INTERFACE|ACCELERATOR:Cnn_Accelerator|MAIN_STM:Main_Stm|State_Register
+Name State_Register.State_Conf3 State_Register.State_Writing2 State_Register.State_Writing1 State_Register.State_Writing0 State_Register.State_Conf2 State_Register.State_Wait State_Register.State_Stop State_Register.State_Feeding1 State_Register.State_Feeding0 State_Register.State_Conf1 State_Register.State_Loading1 State_Register.State_Conf0 State_Register.State_Loading0 State_Register.State_Start1 State_Register.State_Start0 State_Register.State_reset State_Register.State_Wait_Conf 
+State_Register.State_reset 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+State_Register.State_Start0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 
+State_Register.State_Start1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 
+State_Register.State_Loading0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 
+State_Register.State_Conf0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 
+State_Register.State_Loading1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 
+State_Register.State_Conf1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 
+State_Register.State_Feeding0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 
+State_Register.State_Feeding1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 
+State_Register.State_Stop 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 
+State_Register.State_Wait 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 
+State_Register.State_Conf2 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 
+State_Register.State_Writing0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 
+State_Register.State_Writing1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+State_Register.State_Writing2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+State_Register.State_Conf3 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+State_Register.State_Wait_Conf 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+
+State Machine - |ACCELERATOR_AVALON_INTERFACE|ACCELERATOR:Cnn_Accelerator|MUXDC:Muxdc|MUXDC_STATEMACHINE:Muxdc_Statemachine|State_Register
+Name State_Register.State_Configuring1 State_Register.State_Configuring0 State_Register.State_load State_Register.State_reset State_Register.State_Wait_Conf 
+State_Register.State_reset 0 0 0 0 0 
+State_Register.State_load 0 0 1 1 0 
+State_Register.State_Configuring0 0 1 0 1 0 
+State_Register.State_Configuring1 1 0 0 1 0 
+State_Register.State_Wait_Conf 0 0 0 1 1 
+
+State Machine - |ACCELERATOR_AVALON_INTERFACE|ACCELERATOR:Cnn_Accelerator|RBUS:Rbus|RBUS_STATEMACHINE:Rbus_Statemachine|State_Register
+Name State_Register.State_Configured State_Register.State_Wait_Conf State_Register.State_Configuring1 State_Register.State_Configuring0 State_Register.State_load State_Register.State_reset 
+State_Register.State_reset 0 0 0 0 0 0 
+State_Register.State_load 0 0 0 0 1 1 
+State_Register.State_Configuring0 0 0 0 1 0 1 
+State_Register.State_Configuring1 0 0 1 0 0 1 
+State_Register.State_Wait_Conf 0 1 0 0 0 1 
+State_Register.State_Configured 1 0 0 0 0 1 
+
+State Machine - |ACCELERATOR_AVALON_INTERFACE|ACCELERATOR:Cnn_Accelerator|ADDER:Adder|ADDER_STATEMACHINE:Adder_Statemachine|State_Register
+Name State_Register.State_reset State_Register.State_wait_conf State_Register.State_started 
+State_Register.State_reset 0 0 0 
+State_Register.State_started 1 0 1 
+State_Register.State_wait_conf 1 1 0 
+
+State Machine - |ACCELERATOR_AVALON_INTERFACE|ACCELERATOR:Cnn_Accelerator|MEMORIES_CHANNEL:Memories_Channel|MEMCH_STATEMACHINE:Memch_Statemachine|State_Register
+Name State_Register.State_Newch State_Register.State_Wait State_Register.State_started State_Register.State_reset 
+State_Register.State_reset 0 0 0 0 
+State_Register.State_started 0 0 1 1 
+State_Register.State_Wait 0 1 0 1 
+State_Register.State_Newch 1 0 0 1 
+
+State Machine - |ACCELERATOR_AVALON_INTERFACE|ACCELERATOR:Cnn_Accelerator|PEDC:Pedc|PEDC_STATEMACHINE:Pedc_Statemachine|State_Register
+Name State_Register.State_started 
+State_Register.State_reset 0 
+State_Register.State_started 1 
+
+State Machine - |ACCELERATOR_AVALON_INTERFACE|ACCELERATOR:Cnn_Accelerator|OMDC:Omdc|ONEDCONV:OneDConv12|ONEDCONV_STATEMACHINE:State_Machine|State_Register
+Name State_Register.State_reset State_Register.State_Started State_Register.State_Wait_Start 
+State_Register.State_reset 0 0 0 
+State_Register.State_Wait_Start 1 0 1 
+State_Register.State_Started 1 1 0 
+
+State Machine - |ACCELERATOR_AVALON_INTERFACE|ACCELERATOR:Cnn_Accelerator|OMDC:Omdc|ONEDCONV:OneDConv11|ONEDCONV_STATEMACHINE:State_Machine|State_Register
+Name State_Register.State_reset State_Register.State_Started State_Register.State_Wait_Start 
+State_Register.State_reset 0 0 0 
+State_Register.State_Wait_Start 1 0 1 
+State_Register.State_Started 1 1 0 
+
+State Machine - |ACCELERATOR_AVALON_INTERFACE|ACCELERATOR:Cnn_Accelerator|OMDC:Omdc|ONEDCONV:OneDConv10|ONEDCONV_STATEMACHINE:State_Machine|State_Register
+Name State_Register.State_reset State_Register.State_Started State_Register.State_Wait_Start 
+State_Register.State_reset 0 0 0 
+State_Register.State_Wait_Start 1 0 1 
+State_Register.State_Started 1 1 0 
+
+State Machine - |ACCELERATOR_AVALON_INTERFACE|ACCELERATOR:Cnn_Accelerator|OMDC:Omdc|ONEDCONV:OneDConv9|ONEDCONV_STATEMACHINE:State_Machine|State_Register
+Name State_Register.State_reset State_Register.State_Started State_Register.State_Wait_Start 
+State_Register.State_reset 0 0 0 
+State_Register.State_Wait_Start 1 0 1 
+State_Register.State_Started 1 1 0 
+
+State Machine - |ACCELERATOR_AVALON_INTERFACE|ACCELERATOR:Cnn_Accelerator|OMDC:Omdc|ONEDCONV:OneDConv8|ONEDCONV_STATEMACHINE:State_Machine|State_Register
+Name State_Register.State_reset State_Register.State_Started State_Register.State_Wait_Start 
+State_Register.State_reset 0 0 0 
+State_Register.State_Wait_Start 1 0 1 
+State_Register.State_Started 1 1 0 
+
+State Machine - |ACCELERATOR_AVALON_INTERFACE|ACCELERATOR:Cnn_Accelerator|OMDC:Omdc|ONEDCONV:OneDConv7|ONEDCONV_STATEMACHINE:State_Machine|State_Register
+Name State_Register.State_reset State_Register.State_Started State_Register.State_Wait_Start 
+State_Register.State_reset 0 0 0 
+State_Register.State_Wait_Start 1 0 1 
+State_Register.State_Started 1 1 0 
+
+State Machine - |ACCELERATOR_AVALON_INTERFACE|ACCELERATOR:Cnn_Accelerator|OMDC:Omdc|ONEDCONV:OneDConv6|ONEDCONV_STATEMACHINE:State_Machine|State_Register
+Name State_Register.State_reset State_Register.State_Started State_Register.State_Wait_Start 
+State_Register.State_reset 0 0 0 
+State_Register.State_Wait_Start 1 0 1 
+State_Register.State_Started 1 1 0 
+
+State Machine - |ACCELERATOR_AVALON_INTERFACE|ACCELERATOR:Cnn_Accelerator|OMDC:Omdc|ONEDCONV:OneDConv5|ONEDCONV_STATEMACHINE:State_Machine|State_Register
+Name State_Register.State_reset State_Register.State_Started State_Register.State_Wait_Start 
+State_Register.State_reset 0 0 0 
+State_Register.State_Wait_Start 1 0 1 
+State_Register.State_Started 1 1 0 
+
+State Machine - |ACCELERATOR_AVALON_INTERFACE|ACCELERATOR:Cnn_Accelerator|OMDC:Omdc|ONEDCONV:OneDConv4|ONEDCONV_STATEMACHINE:State_Machine|State_Register
+Name State_Register.State_reset State_Register.State_Started State_Register.State_Wait_Start 
+State_Register.State_reset 0 0 0 
+State_Register.State_Wait_Start 1 0 1 
+State_Register.State_Started 1 1 0 
+
+State Machine - |ACCELERATOR_AVALON_INTERFACE|ACCELERATOR:Cnn_Accelerator|OMDC:Omdc|ONEDCONV:OneDConv3|ONEDCONV_STATEMACHINE:State_Machine|State_Register
+Name State_Register.State_reset State_Register.State_Started State_Register.State_Wait_Start 
+State_Register.State_reset 0 0 0 
+State_Register.State_Wait_Start 1 0 1 
+State_Register.State_Started 1 1 0 
+
+State Machine - |ACCELERATOR_AVALON_INTERFACE|ACCELERATOR:Cnn_Accelerator|OMDC:Omdc|ONEDCONV:OneDConv2|ONEDCONV_STATEMACHINE:State_Machine|State_Register
+Name State_Register.State_reset State_Register.State_Started State_Register.State_Wait_Start 
+State_Register.State_reset 0 0 0 
+State_Register.State_Wait_Start 1 0 1 
+State_Register.State_Started 1 1 0 
+
+State Machine - |ACCELERATOR_AVALON_INTERFACE|ACCELERATOR:Cnn_Accelerator|OMDC:Omdc|ONEDCONV:OneDConv1|ONEDCONV_STATEMACHINE:State_Machine|State_Register
+Name State_Register.State_reset State_Register.State_Started State_Register.State_Wait_Start 
+State_Register.State_reset 0 0 0 
+State_Register.State_Wait_Start 1 0 1 
+State_Register.State_Started 1 1 0 
+
+State Machine - |ACCELERATOR_AVALON_INTERFACE|ACCELERATOR:Cnn_Accelerator|OMDC:Omdc|ONEDCONV:OneDConv0|ONEDCONV_STATEMACHINE:State_Machine|State_Register
+Name State_Register.State_reset State_Register.State_Started State_Register.State_Wait_Start 
+State_Register.State_reset 0 0 0 
+State_Register.State_Wait_Start 1 0 1 
+State_Register.State_Started 1 1 0 
+
+State Machine - |ACCELERATOR_AVALON_INTERFACE|ACCELERATOR:Cnn_Accelerator|OMDC:Omdc|OMDC_STATEMACHINE:Omdc_Statemachine|State_Register
+Name State_Register.State_finish State_Register.State_waiting_finish State_Register.State_reset_count_row State_Register.State_count_row State_Register.State_Routine_Stoped State_Register.State_count_stride State_Register.State_count_w_colums State_Register.State_reset 
+State_Register.State_reset 0 0 0 0 0 0 0 0 
+State_Register.State_count_w_colums 0 0 0 0 0 0 1 1 
+State_Register.State_count_stride 0 0 0 0 0 1 0 1 
+State_Register.State_Routine_Stoped 0 0 0 0 1 0 0 1 
+State_Register.State_count_row 0 0 0 1 0 0 0 1 
+State_Register.State_reset_count_row 0 0 1 0 0 0 0 1 
+State_Register.State_waiting_finish 0 1 0 0 0 0 0 1 
+State_Register.State_finish 1 0 0 0 0 0 0 1 
+
+State Machine - |ACCELERATOR_AVALON_INTERFACE|ACCELERATOR:Cnn_Accelerator|OFMI:Ofmi|OFMI_STATEMACHINE:Ofmi_Statemachine|State_Register
+Name State_Register.State_Writing State_Register.State_Wait_Conf1 State_Register.State_Stop_Feeding State_Register.State_Feeding_Last State_Register.State_Feeding_Datapath State_Register.State_Wait_Conf0 State_Register.State_loading_weights State_Register.State_reset State_Register.State_Wait_Conf2 
+State_Register.State_reset 0 0 0 0 0 0 0 0 0 
+State_Register.State_loading_weights 0 0 0 0 0 0 1 1 0 
+State_Register.State_Wait_Conf0 0 0 0 0 0 1 0 1 0 
+State_Register.State_Feeding_Datapath 0 0 0 0 1 0 0 1 0 
+State_Register.State_Feeding_Last 0 0 0 1 0 0 0 1 0 
+State_Register.State_Stop_Feeding 0 0 1 0 0 0 0 1 0 
+State_Register.State_Wait_Conf1 0 1 0 0 0 0 0 1 0 
+State_Register.State_Writing 1 0 0 0 0 0 0 1 0 
+State_Register.State_Wait_Conf2 0 0 0 0 0 0 0 1 1 
+
+State Machine - |ACCELERATOR_AVALON_INTERFACE|ACCELERATOR:Cnn_Accelerator|OWMC:Owmc|OWMC_STATEMACHINE:Owmc_Statemachine|State_Register
+Name State_Register.State_Started State_Register.State_wait_confirmation1 State_Register.State_adder_en State_Register.State_loading_weights_regs State_Register.State_wait_confirmation0 State_Register.State_loading_weights State_Register.State_reset 
+State_Register.State_reset 0 0 0 0 0 0 0 
+State_Register.State_loading_weights 0 0 0 0 0 1 1 
+State_Register.State_wait_confirmation0 0 0 0 0 1 0 1 
+State_Register.State_loading_weights_regs 0 0 0 1 0 0 1 
+State_Register.State_adder_en 0 0 1 0 0 0 1 
+State_Register.State_wait_confirmation1 0 1 0 0 0 0 1 
+State_Register.State_Started 1 0 0 0 0 0 1 

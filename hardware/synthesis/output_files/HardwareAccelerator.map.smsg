@@ -1,0 +1,2 @@
+Warning (10273): Verilog HDL warning at RAM_SIM.v(84): extended using "x" or "z" File: /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RAM_SIM.v Line: 84
+Info (10281): Verilog HDL Declaration information at ADDER.v(54): object "ADDER_Out" differs only in case from object "Adder_out" in the same scope File: /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ADDER.v Line: 54

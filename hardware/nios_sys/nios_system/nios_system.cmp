@@ -1,0 +1,11 @@
+	component nios_system is
+		port (
+			clk_clk                                              : in  std_logic := 'X'; -- clk
+			cnn_accelerator_avalon_0_control_signals_finished    : out std_logic;        -- finished
+			cnn_accelerator_avalon_0_control_signals_finished_ok : in  std_logic := 'X'; -- finished_ok
+			cnn_accelerator_avalon_0_control_signals_same_w      : in  std_logic := 'X'; -- same_w
+			cnn_accelerator_avalon_0_control_signals_start       : in  std_logic := 'X'; -- start
+			reset_reset_n                                        : in  std_logic := 'X'  -- reset_n
+		);
+	end component nios_system;
+

@@ -1,0 +1,573 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "AVS_m0_adress[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_adress[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_adress[4]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_adress[5]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_adress[6]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_adress[7]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_adress[8]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_adress[9]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_adress[10]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_adress[11]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_adress[12]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_adress[13]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_adress[14]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_adress[15]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_read",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[0]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[4]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[5]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[6]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[7]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[8]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[9]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[10]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[11]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[12]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[13]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[14]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[15]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[16]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[17]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[18]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[19]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[20]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[21]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[22]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[23]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[24]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[25]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[26]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[27]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[28]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[29]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[30]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_readdata[31]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_write",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[0]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[4]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[5]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[6]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[7]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[8]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[9]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[10]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[11]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[12]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[13]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[14]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[15]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[16]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[17]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[18]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[19]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[20]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[21]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[22]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[23]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[24]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[25]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[26]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[27]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[28]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[29]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[30]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_writedata[31]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_Counduit_Finished",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_Counduit_Same_W",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_Clk",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_adress[0]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_adress[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_adress[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_adress[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_write",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_chipselect",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_Reset",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_read",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_Counduit_Finished_Ok",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[0]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[4]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[5]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[6]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[7]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[8]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[9]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[10]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[11]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[12]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[13]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_Counduit_Start",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[14]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[15]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[16]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[17]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[18]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[19]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[20]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[21]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[22]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[23]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[24]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[25]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[26]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[27]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[28]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[29]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[30]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_s0_writedata[31]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_readdata[0]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_readdata[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_readdata[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_readdata[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_readdata[4]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_readdata[5]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_readdata[6]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_readdata[7]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_readdata[8]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_readdata[9]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_readdata[10]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_readdata[11]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_readdata[12]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_readdata[13]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_readdata[14]",
+					"strict" : false
+				},
+				{
+					"name" : "AVS_m0_readdata[15]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
