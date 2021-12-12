@@ -75,6 +75,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	ACCELERATOR
 
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/ACC_AVALON_INTERFACE_tb.sv} {1 {vlog -work work -sv -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/ACC_AVALON_INTERFACE_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ACC_AVALON_INTERFACE_tb
+
+Top level modules:
+	ACC_AVALON_INTERFACE_tb
+
 } {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/OFMI_tb.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/OFMI_tb.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module OFMI_tb
@@ -250,19 +257,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	DEMUX_1_3
 
-} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/PE_tb.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/PE_tb.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module PE_tb
-
-Top level modules:
-	PE_tb
-
 } {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/ACCELERATOR_tb.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/ACCELERATOR_tb.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module ACCELERATOR_tb
 
 Top level modules:
 	ACCELERATOR_tb
+
+} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/PE_tb.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/PE_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PE_tb
+
+Top level modules:
+	PE_tb
 
 } {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MAIN_STM.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MAIN_STM.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -375,13 +382,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	OMDC_STATEMACHINE
-
-} {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MEMORIES_CHANNEL.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MEMORIES_CHANNEL.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module MEMORIES_CHANNEL
-
-Top level modules:
-	MEMORIES_CHANNEL
 
 } {} {}} {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RAM_SIMUL.v} {1 {vlog -work work -stats=none {/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RAM_SIMUL.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020

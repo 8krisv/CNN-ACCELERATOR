@@ -11,572 +11,572 @@ cModel Technology
 d/home/krisv/intelFPGA_lite/20.1/modelsim_ase/bin
 vACC_AVALON_INTERFACE_tb
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-!s110 1638929850
+Z1 !s110 1639259831
 !i10b 1
 !s100 _LjjOPeic8?cZecLjC>_]0
-Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
 IB8ol`>N<HEZBd;PNhFQY52
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
 S1
-Z3 d/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/simulation
+Z4 d/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/simulation
 w1638927650
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/ACC_AVALON_INTERFACE_tb.sv
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/ACC_AVALON_INTERFACE_tb.sv
-!i122 3207
+!i122 3263
 L0 24 451
-Z4 OV;L;2020.1;71
+Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1638929850.000000
+Z6 !s108 1639259831.000000
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/ACC_AVALON_INTERFACE_tb.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/ACC_AVALON_INTERFACE_tb.sv|
 !i113 1
-Z5 o-work work -sv
-Z6 tCvgOpt 0
+Z7 o-work work -sv
+Z8 tCvgOpt 0
 n@a@c@c_@a@v@a@l@o@n_@i@n@t@e@r@f@a@c@e_tb
 vACCELERATOR
-Z7 !s110 1638505651
+Z9 !s110 1639259829
 !i10b 1
 !s100 ?4z[Rj_WnL47K057JWWJS2
-R1
-Ib8liD=ei?LAK_n1jT1;Zl0
 R2
+Ib8liD=ei?LAK_n1jT1;Zl0
 R3
+R4
 w1637693013
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ACCELERATOR.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ACCELERATOR.v
-!i122 3140
+!i122 3209
 L0 22 3183
-R4
+R5
 r1
 !s85 0
 31
-Z8 !s108 1638505651.000000
+Z10 !s108 1639259829.000000
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ACCELERATOR.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ACCELERATOR.v|
 !i113 1
-Z9 o-work work
-R6
+Z11 o-work work
+R8
 n@a@c@c@e@l@e@r@a@t@o@r
 vACCELERATOR_AVALON_INTERFACE
-!s110 1638507573
+Z12 !s110 1639259832
 !i10b 1
 !s100 `3b`fVNI[;PRgCMc^kgoV1
-R1
-IAiTMhd7_Hag::mBKE]6jS0
 R2
+IAiTMhd7_Hag::mBKE]6jS0
 R3
+R4
 w1638507561
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ACCELERATOR_AVALON_INTERFACE.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ACCELERATOR_AVALON_INTERFACE.v
-!i122 3202
+!i122 3265
 L0 22 199
-R4
+R5
 r1
 !s85 0
 31
-!s108 1638507573.000000
+Z13 !s108 1639259832.000000
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ACCELERATOR_AVALON_INTERFACE.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ACCELERATOR_AVALON_INTERFACE.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@a@c@c@e@l@e@r@a@t@o@r_@a@v@a@l@o@n_@i@n@t@e@r@f@a@c@e
 vACCELERATOR_tb
-Z10 !s110 1638505653
+!s110 1639266322
 !i10b 1
-!s100 efEO[XemHQ3hI3?N2LiGL1
-R1
-ISV0GnDhaZR[j3YhcFdN_j3
+!s100 6[0ECMScgbA?8;=inC:Ee2
 R2
+I_X]dQ_4]7fAhn;:9a]?oE0
 R3
-w1637535008
+R4
+w1639264397
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/ACCELERATOR_tb.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/ACCELERATOR_tb.v
-!i122 3185
+!i122 3271
 L0 24 150
-R4
+R5
 r1
 !s85 0
 31
-Z11 !s108 1638505653.000000
+!s108 1639266322.000000
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/ACCELERATOR_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/ACCELERATOR_tb.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@a@c@c@e@l@e@r@a@t@o@r_tb
 vADDER
-R7
+R9
 !i10b 1
 !s100 N7JZ@45865HI0ACB=CXVa2
-R1
-IW5zV>W[1EA6KEmZC?O]0V0
 R2
+IW5zV>W[1EA6KEmZC?O]0V0
 R3
+R4
 w1635030351
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ADDER.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ADDER.v
-!i122 3141
+!i122 3210
 L0 22 108
-R4
+R5
 r1
 !s85 0
 31
-R8
+R10
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ADDER.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ADDER.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@a@d@d@e@r
 vADDER_STATEMACHINE
-R7
+R9
 !i10b 1
 !s100 b@gb6bf_KjZh@]IUN61d_2
-R1
-IUMc_gVSKHZb^cjM>1HBTZ1
 R2
+IUMc_gVSKHZb^cjM>1HBTZ1
 R3
+R4
 w1632877977
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ADDER_STATEMACHINE.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ADDER_STATEMACHINE.v
-!i122 3142
+!i122 3211
 L0 22 116
-R4
+R5
 r1
 !s85 0
 31
-R8
+R10
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ADDER_STATEMACHINE.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ADDER_STATEMACHINE.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@a@d@d@e@r_@s@t@a@t@e@m@a@c@h@i@n@e
 vCALC_UNIT
-R7
+R9
 !i10b 1
 !s100 O@:6^ZME;NfP6NB<fh3a00
-R1
-I;:Un`VZ=V57cCzSGo2nm32
 R2
+I;:Un`VZ=V57cCzSGo2nm32
 R3
+R4
 w1635040564
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/CALC_UNIT.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/CALC_UNIT.v
-!i122 3143
+!i122 3212
 L0 22 76
-R4
+R5
 r1
 !s85 0
 31
-R8
+R10
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/CALC_UNIT.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/CALC_UNIT.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@c@a@l@c_@u@n@i@t
 vCHANNEL_MEM
-R7
+R9
 !i10b 1
 !s100 ;F5YIQA=K1Q__o6WoO`3T3
-R1
-I_=0Dm>aoU9PLAkEANQf^31
 R2
+I_=0Dm>aoU9PLAkEANQf^31
 R3
+R4
 w1632886764
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/CHANNEL_MEM.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/CHANNEL_MEM.v
-!i122 3144
+!i122 3213
 L0 22 75
-R4
+R5
 r1
 !s85 0
 31
-R8
+R10
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/CHANNEL_MEM.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/CHANNEL_MEM.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@c@h@a@n@n@e@l_@m@e@m
 vCONFI_REGS
-R10
+R1
 !i10b 1
 !s100 5>a3Z^20H`?znWji0A]4m0
-R1
-IOU?B=cn>cZ=L>F3cc]dZ91
 R2
+IOU?B=cn>cZ=L>F3cc]dZ91
 R3
+R4
 w1636758127
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/CONFI_REGS.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/CONFI_REGS.v
-!i122 3191
+!i122 3260
 L0 22 300
-R4
+R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/CONFI_REGS.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/CONFI_REGS.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@c@o@n@f@i_@r@e@g@s
 vCONV_SELECTOR
-R7
+R9
 !i10b 1
 !s100 V5@`H[@WBBLjDUTYdz86T3
-R1
-IT_C:Z:Anfj8KH[M@KC]lg1
 R2
+IT_C:Z:Anfj8KH[M@KC]lg1
 R3
+R4
 w1633581948
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/CONV_SELECTOR.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/CONV_SELECTOR.v
-!i122 3145
+!i122 3214
 L0 22 69
-R4
+R5
 r1
 !s85 0
 31
-R8
+R10
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/CONV_SELECTOR.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/CONV_SELECTOR.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@c@o@n@v_@s@e@l@e@c@t@o@r
 vCOUNTER_CH
-R7
+R9
 !i10b 1
 !s100 `;9l4Xl17m`Qhhb8z73_^3
-R1
-I<jC56i8@5K_0>BJKmO>W_3
 R2
+I<jC56i8@5K_0>BJKmO>W_3
 R3
+R4
 w1632632174
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_CH.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_CH.v
-!i122 3146
+!i122 3215
 L0 22 44
-R4
+R5
 r1
 !s85 0
 31
-R8
+R10
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_CH.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_CH.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@c@o@u@n@t@e@r_@c@h
 vCOUNTER_LOAD_NEG
-R7
+R9
 !i10b 1
 !s100 5Y<bfhNT^46Ccaok>eHPP0
-R1
-I8?2PCQ91<bDF>H9ko6<@R1
 R2
+I8?2PCQ91<bDF>H9ko6<@R1
 R3
+R4
 w1634424173
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_LOAD_NEG.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_LOAD_NEG.v
-!i122 3147
-Z12 L0 22 55
-R4
+!i122 3216
+Z14 L0 22 55
+R5
 r1
 !s85 0
 31
-R8
+R10
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_LOAD_NEG.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_LOAD_NEG.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@c@o@u@n@t@e@r_@l@o@a@d_@n@e@g
 vCOUNTER_NEG
-R7
+R9
 !i10b 1
 !s100 jfIlVkn9BhnG>0R>K]^zg1
-R1
-IFPkglm`^OJdFame=8HF=k1
 R2
+IFPkglm`^OJdFame=8HF=k1
 R3
+R4
 w1631987540
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_NEG.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_NEG.v
-!i122 3148
+!i122 3217
 L0 22 47
-R4
+R5
 r1
 !s85 0
 31
-R8
+R10
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_NEG.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_NEG.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@c@o@u@n@t@e@r_@n@e@g
 vCOUNTER_NEXT_ROW
-R7
+R9
 !i10b 1
 !s100 dDn]UkzB2jZP1PzRA?LAi1
-R1
-IPMzO`UJa_LT74UhgH^j;f2
 R2
+IPMzO`UJa_LT74UhgH^j;f2
 R3
+R4
 w1632089786
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_NEXT_ROW.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_NEXT_ROW.v
-!i122 3149
+!i122 3218
 L0 22 46
-R4
+R5
 r1
 !s85 0
 31
-R8
+R10
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_NEXT_ROW.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_NEXT_ROW.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@c@o@u@n@t@e@r_@n@e@x@t_@r@o@w
 vCOUNTER_OFFSET_NEG
-R7
+R9
 !i10b 1
 !s100 maK;;OoNLWK8[Jm3<TXX@0
-R1
-I=b[e4]PKUJEUzk[6>?2?42
 R2
+I=b[e4]PKUJEUzk[6>?2?42
 R3
+R4
 w1631987186
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_OFFSET_NEG.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_OFFSET_NEG.v
-!i122 3150
-R12
-R4
+!i122 3219
+R14
+R5
 r1
 !s85 0
 31
-R8
+R10
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_OFFSET_NEG.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_OFFSET_NEG.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@c@o@u@n@t@e@r_@o@f@f@s@e@t_@n@e@g
 vCOUNTER_OFFSET_POS
-R7
+R9
 !i10b 1
 !s100 fEJ`g:_>=H`USMJgmFAh]2
-R1
-I;J=W@MO9cPof3N2ibkMnT3
 R2
+I;J=W@MO9cPof3N2ibkMnT3
 R3
+R4
 w1635042581
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_OFFSET_POS.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_OFFSET_POS.v
-!i122 3151
-R12
-R4
+!i122 3220
+R14
+R5
 r1
 !s85 0
 31
-R8
+R10
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_OFFSET_POS.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_OFFSET_POS.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@c@o@u@n@t@e@r_@o@f@f@s@e@t_@p@o@s
 vCOUNTER_POS
-R7
+R9
 !i10b 1
 !s100 >X40@l0`;3`kQiO6PVTgW3
-R1
-ImOL@DBBhFLfbFUjK]dFOS0
 R2
+ImOL@DBBhFLfbFUjK]dFOS0
 R3
+R4
 w1632105888
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_POS.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_POS.v
-!i122 3152
-Z13 L0 22 62
-R4
+!i122 3221
+Z15 L0 22 62
+R5
 r1
 !s85 0
 31
-R8
+R10
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_POS.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/COUNTER_POS.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@c@o@u@n@t@e@r_@p@o@s
 vDEMUX_169
-R7
+R9
 !i10b 1
 !s100 _Ke8Jf?SQE592[ATRFgoH2
-R1
-Iczm0z2n@:fe:YJkC@09c;3
 R2
+Iczm0z2n@:fe:YJkC@09c;3
 R3
+R4
 w1634509963
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/DEMUX_169.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/DEMUX_169.v
-!i122 3155
+!i122 3224
 L0 22 381
-R4
+R5
 r1
 !s85 0
 31
-R8
+R10
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/DEMUX_169.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/DEMUX_169.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@d@e@m@u@x_169
 vDEMUX_1_11
-R10
+R1
 !i10b 1
 !s100 f9aG8fE:mTA=:Q<Jofd923
-R1
-IT3`@@Gbj<Bz1]lZ^7m5I@0
 R2
+IT3`@@Gbj<Bz1]lZ^7m5I@0
 R3
+R4
 w1636740957
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/DEMUX_1_11.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/DEMUX_1_11.v
-!i122 3192
+!i122 3261
 L0 22 231
-R4
+R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/DEMUX_1_11.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/DEMUX_1_11.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@d@e@m@u@x_1_11
 vDEMUX_1_2
-R7
+R9
 !i10b 1
 !s100 n`o5edJ3eoAY]EEaoQTSo3
-R1
-IDGn9C5=V:@S4JHd<]<c<l2
 R2
+IDGn9C5=V:@S4JHd<]<c<l2
 R3
+R4
 w1634579664
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/DEMUX_1_2.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/DEMUX_1_2.v
-!i122 3153
+!i122 3222
 L0 22 21
-R4
+R5
 r1
 !s85 0
 31
-R8
+R10
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/DEMUX_1_2.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/DEMUX_1_2.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@d@e@m@u@x_1_2
 vDEMUX_1_3
-R7
+R9
 !i10b 1
 !s100 J8A;=ogmf66_NnK716z4a0
-R1
-IaAPd:8l`EUjIc3LIdFZiO2
 R2
+IaAPd:8l`EUjIc3LIdFZiO2
 R3
+R4
 w1632606403
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/DEMUX_1_3.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/DEMUX_1_3.v
-!i122 3154
+!i122 3223
 L0 22 28
-R4
+R5
 r1
 !s85 0
 31
-R8
+R10
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/DEMUX_1_3.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/DEMUX_1_3.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@d@e@m@u@x_1_3
 vFCLOCK
-R10
+R1
 !i10b 1
 !s100 iGTE?Y3lJjZ2jnG[on>]N0
-R1
-I7FEnKDAY3RH^G3TGnYE4z3
 R2
+I7FEnKDAY3RH^G3TGnYE4z3
 R3
+R4
 w1634933408
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/FCLOCK.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/FCLOCK.v
-!i122 3189
+!i122 3258
 L0 22 12
-R4
+R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/FCLOCK.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/FCLOCK.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@f@c@l@o@c@k
 vFIFO
-Z14 !s110 1638505652
+Z16 !s110 1639259830
 !i10b 1
 !s100 R:9z^5[SaI75Fg7U];9ZV0
-R1
-IlDUj[]AVoQadniXR2gEiX0
 R2
+IlDUj[]AVoQadniXR2gEiX0
 R3
+R4
 w1634935316
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/FIFO.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/FIFO.v
-!i122 3156
+!i122 3225
 L0 24 95
-R4
+R5
 r1
 !s85 0
 31
-R8
+R10
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/FIFO.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/FIFO.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@f@i@f@o
 vGENCLR
 !s110 1635310234
 !i10b 1
 !s100 nO]CRKnK_KVW@>S=VJoDA2
-R1
-I=c]PdI`BFh7U]1HDDb8iZ1
 R2
+I=c]PdI`BFh7U]1HDDb8iZ1
 R3
+R4
 w1635309979
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/GENCLR.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/GENCLR.v
 !i122 858
-Z15 L0 22 33
-R4
+Z17 L0 22 33
+R5
 r1
 !s85 0
 31
@@ -584,215 +584,215 @@ r1
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/GENCLR.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/GENCLR.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@g@e@n@c@l@r
 vMAIN_STM
-R14
+R16
 !i10b 1
 !s100 M7kEN^zHmDiLGF5ZQlol_0
-R1
-IJ72i9nf@cWI`loJC@BNB@2
 R2
+IJ72i9nf@cWI`loJC@BNB@2
 R3
+R4
 w1635130165
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MAIN_STM.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MAIN_STM.v
-!i122 3157
+!i122 3226
 L0 22 907
-R4
+R5
 r1
 !s85 0
 31
-Z16 !s108 1638505652.000000
+Z18 !s108 1639259830.000000
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MAIN_STM.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MAIN_STM.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@m@a@i@n_@s@t@m
 vMEMCH_STATEMACHINE
-R14
+R16
 !i10b 1
 !s100 gjcNn6I@leo`^Bi5CMS6c0
-R1
-I4h21K@g[5OgXj:oSKdgic1
 R2
+I4h21K@g[5OgXj:oSKdgic1
 R3
+R4
 w1632871246
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MEMCH_STATEMACHINE.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MEMCH_STATEMACHINE.v
-!i122 3158
-Z17 L0 22 146
-R4
+!i122 3227
+Z19 L0 22 146
+R5
 r1
 !s85 0
 31
-R16
+R18
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MEMCH_STATEMACHINE.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MEMCH_STATEMACHINE.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@m@e@m@c@h_@s@t@a@t@e@m@a@c@h@i@n@e
 vMEMORIES_CHANNEL
-R14
+!s110 1639267984
 !i10b 1
-!s100 <4YST7h?@bY2=9JHP<M6_1
-R1
-IA`8KhgoD8aV8N0k]X:]Mz0
+!s100 E:BZ:Pz4Eb;o30CI]_Q:P1
 R2
+Iab?kTZ22TS=oI`OzFigCW0
 R3
-w1637812319
+R4
+w1639267885
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MEMORIES_CHANNEL.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MEMORIES_CHANNEL.v
-!i122 3159
+!i122 3272
 L0 22 198
-R4
+R5
 r1
 !s85 0
 31
-R16
+!s108 1639267984.000000
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MEMORIES_CHANNEL.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MEMORIES_CHANNEL.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@m@e@m@o@r@i@e@s_@c@h@a@n@n@e@l
 vMUX_169
-R14
+R16
 !i10b 1
 !s100 5^O464g8DjNia_2SSmXF^1
-R1
-I5VBR7=ZnkNM?;E;iB3U@L3
 R2
+I5VBR7=ZnkNM?;E;iB3U@L3
 R3
+R4
 w1634513508
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MUX169.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MUX169.v
-!i122 3160
+!i122 3229
 L0 21 170
-R4
+R5
 r1
 !s85 0
 31
-R16
+R18
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MUX169.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MUX169.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@m@u@x_169
 vMUX_2_1
-R14
+R16
 !i10b 1
 !s100 LY<2IkQPaYOEHUHo3eSE81
-R1
-Ihen>WD]QZ[1eOR0S6h@1L0
 R2
+Ihen>WD]QZ[1eOR0S6h@1L0
 R3
+R4
 w1632328751
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MUX_2_1.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MUX_2_1.v
-!i122 3161
+!i122 3230
 L0 22 30
-R4
+R5
 r1
 !s85 0
 31
-R16
+R18
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MUX_2_1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MUX_2_1.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@m@u@x_2_1
 vMUXDC
-R14
+R16
 !i10b 1
 !s100 75DX]=LRgV3Z3QdoH>^m[3
-R1
-IoCBdQW3Ve>Z9ZaGJgc>aC3
 R2
+IoCBdQW3Ve>Z9ZaGJgc>aC3
 R3
+R4
 w1633546169
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MUXDC.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MUXDC.v
-!i122 3162
-R17
-R4
+!i122 3231
+R19
+R5
 r1
 !s85 0
 31
-R16
+R18
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MUXDC.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MUXDC.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@m@u@x@d@c
 vMUXDC_STATEMACHINE
-R14
+R16
 !i10b 1
 !s100 z0B?I`S9I[ONPmYhC63jl2
-R1
-I6h;k5OIe1[W_AiCG^LKGl1
 R2
+I6h;k5OIe1[W_AiCG^LKGl1
 R3
+R4
 w1633547861
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MUXDC_STATEMACHINE.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MUXDC_STATEMACHINE.v
-!i122 3163
+!i122 3232
 L0 22 197
-R4
+R5
 r1
 !s85 0
 31
-R16
+R18
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MUXDC_STATEMACHINE.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MUXDC_STATEMACHINE.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@m@u@x@d@c_@s@t@a@t@e@m@a@c@h@i@n@e
 vMUXDC_tb
-R10
+R1
 !i10b 1
 !s100 F[bTk?]A]5oJfTPT^2O9i0
-R1
-IgD_izziGfG2aLFkoXCl_V1
 R2
+IgD_izziGfG2aLFkoXCl_V1
 R3
+R4
 w1637098290
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/MUXDC_tb.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/MUXDC_tb.v
-!i122 3186
+!i122 3255
 L0 24 86
-R4
+R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/MUXDC_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/MUXDC_tb.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@m@u@x@d@c_tb
 vOEN_CLR
 !s110 1635440497
 !i10b 1
 !s100 ?R6OKENSH<:QgPc1lMi`43
-R1
-IE1_5>mKP2anO_GEnQDeW82
 R2
+IE1_5>mKP2anO_GEnQDeW82
 R3
+R4
 w1635381052
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OEN_CLR.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OEN_CLR.v
 !i122 1626
 L0 22 54
-R4
+R5
 r1
 !s85 0
 31
@@ -800,601 +800,601 @@ r1
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OEN_CLR.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OEN_CLR.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@o@e@n_@c@l@r
 vOFFSET_ADDER
-R14
+R16
 !i10b 1
 !s100 FjPKZ2<eH<Q?B:kKL>TYW1
-R1
-IWGl^7ndCYOO@]fIKfaR<]3
 R2
+IWGl^7ndCYOO@]fIKfaR<]3
 R3
+R4
 w1631571606
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OFFSET_ADDER.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OFFSET_ADDER.v
-!i122 3164
-Z18 L0 22 43
-R4
+!i122 3233
+Z20 L0 22 43
+R5
 r1
 !s85 0
 31
-R16
+R18
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OFFSET_ADDER.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OFFSET_ADDER.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@o@f@f@s@e@t_@a@d@d@e@r
 vOFMI
-R14
+R16
 !i10b 1
 !s100 lXC6MgM_ZfB;@MnaXTS4A2
-R1
-I]R8c=>FGzG51aDSB^57;^3
 R2
+I]R8c=>FGzG51aDSB^57;^3
 R3
+R4
 w1637173095
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OFMI.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OFMI.v
-!i122 3165
+!i122 3234
 L0 22 141
-R4
+R5
 r1
 !s85 0
 31
-R16
+R18
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OFMI.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OFMI.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@o@f@m@i
 vOFMI_STATEMACHINE
-R14
+R16
 !i10b 1
 !s100 V1]=X5zJVSO0R_RF<i3WG1
-R1
-IKFFJjZ`_?4Y5L1SMSWbAO0
 R2
+IKFFJjZ`_?4Y5L1SMSWbAO0
 R3
+R4
 w1631765094
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OFMI_STATEMACHINE.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OFMI_STATEMACHINE.v
-!i122 3166
+!i122 3235
 L0 22 322
-R4
+R5
 r1
 !s85 0
 31
-R16
+R18
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OFMI_STATEMACHINE.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OFMI_STATEMACHINE.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@o@f@m@i_@s@t@a@t@e@m@a@c@h@i@n@e
 vOFMI_tb
-R10
+R1
 !i10b 1
 !s100 0V?ChCz6XTP8SRB8z@nTU3
-R1
-I4`^?Pa5E1iUagFA`cUPh22
 R2
+I4`^?Pa5E1iUagFA`cUPh22
 R3
+R4
 w1637098300
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/OFMI_tb.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/OFMI_tb.v
-!i122 3187
+!i122 3256
 L0 24 292
-R4
+R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/OFMI_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/OFMI_tb.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@o@f@m@i_tb
 vOMDC
-R14
+R16
 !i10b 1
 !s100 <8`CbRPW@a<U221bUo5OL3
-R1
-Iae6LLch:8;zB2KAI<:d]G0
 R2
+Iae6LLch:8;zB2KAI<:d]G0
 R3
+R4
 w1637517107
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OMDC.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OMDC.v
-!i122 3167
+!i122 3236
 L0 22 680
-R4
+R5
 r1
 !s85 0
 31
-R16
+R18
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OMDC.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OMDC.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@o@m@d@c
 vOMDC_STATEMACHINE
-R14
+R16
 !i10b 1
 !s100 1DlIN7FQk7QJQ`IWiBJ5o0
-R1
-Ia9ZRH=VK?d<ZKY>[VHk6M1
 R2
+Ia9ZRH=VK?d<ZKY>[VHk6M1
 R3
+R4
 w1637512450
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OMDC_STATEMACHINE.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OMDC_STATEMACHINE.v
-!i122 3168
+!i122 3237
 L0 22 408
-R4
+R5
 r1
 !s85 0
 31
-R16
+R18
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OMDC_STATEMACHINE.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OMDC_STATEMACHINE.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@o@m@d@c_@s@t@a@t@e@m@a@c@h@i@n@e
 vOMDC_tb
-R10
+R1
 !i10b 1
 !s100 oz]TI4lU1kWkSMP5J=P:f3
-R1
-IGl3zG6<ZeZhD5YiBXQK[40
 R2
+IGl3zG6<ZeZhD5YiBXQK[40
 R3
+R4
 w1637098306
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/OMDC_tb.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/OMDC_tb.v
-!i122 3188
+!i122 3257
 L0 24 207
-R4
+R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/OMDC_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/OMDC_tb.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@o@m@d@c_tb
 vONEDCONV
-R14
+R16
 !i10b 1
 !s100 0Ol:K6CR_f1CRSCZXQ1>c3
-R1
-I<@FnGWZmOih91i8KdS>Ol1
 R2
+I<@FnGWZmOih91i8KdS>Ol1
 R3
+R4
 w1635454510
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ONEDCONV.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ONEDCONV.v
-!i122 3169
+!i122 3238
 L0 22 218
-R4
+R5
 r1
 !s85 0
 31
-R16
+R18
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ONEDCONV.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ONEDCONV.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@o@n@e@d@c@o@n@v
 vONEDCONV_OEN
-R14
+R16
 !i10b 1
 !s100 mT27?e?1g3T5@8ZBzMPY;2
-R1
-Ie3VVLMh2k^;_AaB?OgSYj1
 R2
+Ie3VVLMh2k^;_AaB?OgSYj1
 R3
+R4
 w1635454394
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ONEDCONV_OEN.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ONEDCONV_OEN.v
-!i122 3170
+!i122 3239
 L0 22 107
-R4
+R5
 r1
 !s85 0
 31
-R16
+R18
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ONEDCONV_OEN.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ONEDCONV_OEN.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@o@n@e@d@c@o@n@v_@o@e@n
 vONEDCONV_SET_EN
-R14
+R16
 !i10b 1
 !s100 QIkoCCnMEDol<5RXZ`GeF3
-R1
-IQLnQD79X73ko^T2b8HeX:3
 R2
+IQLnQD79X73ko^T2b8HeX:3
 R3
+R4
 w1635454320
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ONEDCONV_SET_EN.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ONEDCONV_SET_EN.v
-!i122 3171
+!i122 3240
 L0 22 101
-R4
+R5
 r1
 !s85 0
 31
-R16
+R18
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ONEDCONV_SET_EN.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ONEDCONV_SET_EN.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@o@n@e@d@c@o@n@v_@s@e@t_@e@n
 vONEDCONV_STATEMACHINE
-R14
+R16
 !i10b 1
 !s100 >MWJ47j:zI]zlAMmaW>8=3
-R1
-IG5e??MN^z6OK4JP:BzDl82
 R2
+IG5e??MN^z6OK4JP:BzDl82
 R3
+R4
 w1632092091
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ONEDCONV_STATEMACHINE.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ONEDCONV_STATEMACHINE.v
-!i122 3172
+!i122 3241
 L0 22 132
-R4
+R5
 r1
 !s85 0
 31
-R16
+R18
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ONEDCONV_STATEMACHINE.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/ONEDCONV_STATEMACHINE.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@o@n@e@d@c@o@n@v_@s@t@a@t@e@m@a@c@h@i@n@e
 vOUT_REG
-R14
+R16
 !i10b 1
 !s100 Andh;H@2K3lWCmBnN;]iU2
-R1
-IbG:@cnDm@OA81QE13Wl[?0
 R2
+IbG:@cnDm@OA81QE13Wl[?0
 R3
+R4
 w1631219405
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OUT_REG.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OUT_REG.v
-!i122 3173
+!i122 3242
 L0 22 56
-R4
+R5
 r1
 !s85 0
 31
-R16
+R18
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OUT_REG.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OUT_REG.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@o@u@t_@r@e@g
 vOWMC
-R14
+R16
 !i10b 1
 !s100 S;z<@gAzOifO?DYj[HKLj1
-R1
-IXDz4zZ7;eGd5`YW4AzN4d2
 R2
+IXDz4zZ7;eGd5`YW4AzN4d2
 R3
+R4
 w1631987194
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OWMC.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OWMC.v
-!i122 3174
+!i122 3243
 L0 22 171
-R4
+R5
 r1
 !s85 0
 31
-R16
+R18
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OWMC.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OWMC.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@o@w@m@c
 vOWMC_STATEMACHINE
-R10
+R1
 !i10b 1
 !s100 YI=C6gKUZ>ee>eG?E<<c92
-R1
-I42f=RcPPbD8HTi54@cPiz0
 R2
+I42f=RcPPbD8HTi54@cPiz0
 R3
+R4
 w1634526680
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OWMC_STATEMACHINE.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OWMC_STATEMACHINE.v
-!i122 3175
+!i122 3244
 L0 22 269
-R4
+R5
 r1
 !s85 0
 31
-R16
+R18
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OWMC_STATEMACHINE.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/OWMC_STATEMACHINE.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@o@w@m@c_@s@t@a@t@e@m@a@c@h@i@n@e
 vPE
-R10
+R1
 !i10b 1
 !s100 kDNjTAW4X7ZQUgzHnJ94]2
-R1
-IZ8enXX4mMD6g[Ca`Y00XQ1
 R2
+IZ8enXX4mMD6g[Ca`Y00XQ1
 R3
+R4
 w1633924761
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/PE.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/PE.v
-!i122 3176
-R13
-R4
+!i122 3245
+R15
+R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/PE.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/PE.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@p@e
 vPE_tb
-Z19 !s110 1638505654
+R12
 !i10b 1
 !s100 bUJa9k3b5NTIg[j5MAKIO2
-R1
-ITHH3noZ^n32N;z[UYi;_S1
 R2
+ITHH3noZ^n32N;z[UYi;_S1
 R3
+R4
 w1637098337
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/PE_tb.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/PE_tb.v
-!i122 3197
+!i122 3266
 L0 24 137
-R4
+R5
 r1
 !s85 0
 31
-Z20 !s108 1638505654.000000
+R13
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/PE_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/PE_tb.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@p@e_tb
 vPEDC
-R10
+R1
 !i10b 1
 !s100 No3KULzWHTOPXOchlEJL31
-R1
-ILHEO]Ee6jQd>E3HXBdZkK3
 R2
+ILHEO]Ee6jQd>E3HXBdZkK3
 R3
+R4
 w1635012122
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/PEDC.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/PEDC.v
-!i122 3177
+!i122 3246
 L0 22 70
-R4
+R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/PEDC.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/PEDC.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@p@e@d@c
 vPEDC_STATEMACHINE
-R10
+R1
 !i10b 1
 !s100 oL]N_[4VkmCoWdNWZ_o270
-R1
-I6XE<H52:C2Td^U<I1Pen@3
 R2
+I6XE<H52:C2Td^U<I1Pen@3
 R3
+R4
 w1632366508
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/PEDC_STATEMACHINE.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/PEDC_STATEMACHINE.v
-!i122 3178
+!i122 3247
 L0 22 94
-R4
+R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/PEDC_STATEMACHINE.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/PEDC_STATEMACHINE.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@p@e@d@c_@s@t@a@t@e@m@a@c@h@i@n@e
 vRAM
-R10
+R1
 !i10b 1
 !s100 ^zWTWAIaGDhflVRmWVLlD3
-R1
-ImAimP@f`:HZEF6Xo@A[IZ2
 R2
+ImAimP@f`:HZEF6Xo@A[IZ2
 R3
+R4
 w1635011674
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RAM.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RAM.v
-!i122 3179
+!i122 3248
 L0 23 62
-R4
+R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RAM.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RAM.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@r@a@m
 vRAM_SIM
 R0
-R10
+R1
 !i10b 1
 !s100 CTeUNa8:W09zJD:6aLm@20
-R1
-IXQ@_E@=ITK`ZM=@X8Xmh90
 R2
-S1
+IXQ@_E@=ITK`ZM=@X8Xmh90
 R3
+S1
+R4
 w1637626857
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RAM_SIM.sv
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RAM_SIM.sv
-!i122 3193
+!i122 3262
 L0 23 81
-R4
+R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RAM_SIM.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RAM_SIM.sv|
 !i113 1
-R5
-R6
+R7
+R8
 n@r@a@m_@s@i@m
 vRAM_SIMUL
-R19
+R12
 !i10b 1
 !s100 [=FTC;k0L:nj913KY4E]@1
-R1
-IMg[Rf<nMn4>2WzPiSf`@P0
 R2
+IMg[Rf<nMn4>2WzPiSf`@P0
 R3
+R4
 w1637168741
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RAM_SIMUL.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RAM_SIMUL.v
-!i122 3195
+!i122 3264
 L0 23 66
-R4
+R5
 r1
 !s85 0
 31
-R20
+R6
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RAM_SIMUL.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RAM_SIMUL.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@r@a@m_@s@i@m@u@l
 vRBUS
-R10
+R1
 !i10b 1
 !s100 nE6hj:`lDM7AFR9ZT_m_L2
-R1
-I<M9EGd>B`f16h^>Im@fnb0
 R2
+I<M9EGd>B`f16h^>Im@fnb0
 R3
+R4
 w1634539332
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RBUS.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RBUS.v
-!i122 3180
+!i122 3249
 L0 22 305
-R4
+R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RBUS.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RBUS.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@r@b@u@s
 vRBUS_STATEMACHINE
-R10
+R1
 !i10b 1
 !s100 h2YfI6ZhOEClL8k78KHeV2
-R1
-I43E8@[C`LUS=fAc:5PE4S2
 R2
+I43E8@[C`LUS=fAc:5PE4S2
 R3
+R4
 w1633548170
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RBUS_STATEMACHINE.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RBUS_STATEMACHINE.v
-!i122 3181
+!i122 3250
 L0 22 243
-R4
+R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RBUS_STATEMACHINE.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RBUS_STATEMACHINE.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@r@b@u@s_@s@t@a@t@e@m@a@c@h@i@n@e
 vSET_CLR
-R10
+R1
 !i10b 1
 !s100 U2z9G6bDSeF0Zm0;`ERIH2
-R1
-I871O6N]7RL>;>Pi[O?H^;2
 R2
+I871O6N]7RL>;>Pi[O?H^;2
 R3
+R4
 w1635402307
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/SET_CLR.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/SET_CLR.v
-!i122 3190
-R15
-R4
+!i122 3259
+R17
+R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/SET_CLR.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/SET_CLR.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@s@e@t_@c@l@r
 vSETEN_CLR
 !s110 1635382927
 !i10b 1
 !s100 >LK:mWdNOYOY8ab5FliJl3
-R1
-IhcM]MIAT;4;cN<`4<[ehc3
 R2
+IhcM]MIAT;4;cN<`4<[ehc3
 R3
+R4
 w1635380687
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/SETEN_CLR.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/SETEN_CLR.v
 !i122 1493
 L0 22 50
-R4
+R5
 r1
 !s85 0
 31
@@ -1402,78 +1402,78 @@ r1
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/SETEN_CLR.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/SETEN_CLR.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@s@e@t@e@n_@c@l@r
 vSIMPLE_COUNTER
-R10
+R1
 !i10b 1
 !s100 UGojJ^]4503QWWoE>ZX8C3
-R1
-IVj8FDH3n8m8834jl:]k;V2
 R2
+IVj8FDH3n8m8834jl:]k;V2
 R3
+R4
 w1632876426
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/SIMPLE_COUNTER.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/SIMPLE_COUNTER.v
-!i122 3182
+!i122 3251
 L0 22 49
-R4
+R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/SIMPLE_COUNTER.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/SIMPLE_COUNTER.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@s@i@m@p@l@e_@c@o@u@n@t@e@r
 vSTRIDE_CLEAR
-R10
+R1
 !i10b 1
 !s100 :?B8<8Kh0W8ZV3FY`2`J^2
-R1
-Ii@Hm8Bjn?B1KDj`Vd]_M?3
 R2
+Ii@Hm8Bjn?B1KDj`Vd]_M?3
 R3
+R4
 w1634430380
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/STRIDE_CLEAR.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/STRIDE_CLEAR.v
-!i122 3183
+!i122 3252
 L0 22 48
-R4
+R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/STRIDE_CLEAR.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/STRIDE_CLEAR.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@s@t@r@i@d@e_@c@l@e@a@r
 vWREG
-R10
+R1
 !i10b 1
 !s100 G:9]@Dk4]e4c>d`hFLbi60
-R1
-I[AGQ1JmMjKD3<dzm<C3XL2
 R2
+I[AGQ1JmMjKD3<dzm<C3XL2
 R3
+R4
 w1632420188
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/WREG.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/WREG.v
-!i122 3184
-R18
-R4
+!i122 3253
+R20
+R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/WREG.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/WREG.v|
 !i113 1
-R9
-R6
+R11
+R8
 n@w@r@e@g

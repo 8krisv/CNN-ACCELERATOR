@@ -1,0 +1,28 @@
+// memory data file (do not edit the following line - required for mem load use)
+// instance=/ACC_AVALON_INTERFACE_tb/OffchipRam/Ram_Array
+// format=hex addressradix=h dataradix=h version=1.0 wordsperline=1 noaddress
+00000a9a
+0000030d
+00000834
+00000366
+000003ad
+00000895
+00000441
+0000015e
+0000032f
+000000f3
+00000552
+000005b2
+0000130a
+00000171
+000000d6
+0000042d
+00001294
+0000127a
+00001393
+0000062a
+00000413
+00000f02
+000010a3
+00001146
+000005b0

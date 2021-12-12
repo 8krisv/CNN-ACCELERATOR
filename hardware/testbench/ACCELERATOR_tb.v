@@ -25,7 +25,7 @@ module ACCELERATOR_tb();
 
 //////////// Parameter declarations ////////////
 
-parameter IFPATH = "../../files/IF/memv/test-vin.txt";
+parameter IFPATH = "../../files/IF/memv/69-vin.txt";
 
 
 
@@ -36,20 +36,20 @@ parameter BITWIDTH_IF_ROWS=10;
 parameter BITWIDTH_IF_COLUMS = 11; 
 parameter OFFMEM_ADDR_WIDTH = 32;
 parameter OFFMEM_DATA_WIDTH = 16;
-parameter MAX_OFFMEM_SIZE =1024;
+parameter MAX_OFFMEM_SIZE =196608;
 parameter BITWIDTH_STRIDE=4; 
 integer i;
 
 //////////// Input signals declarations ////////////
 reg [OFFMEM_ADDR_WIDTH-1:0] tb_addr_offset;
-reg [BITWIDTH_IF_ROWS-1:0] tb_if_rows = 8;
-reg [BITWIDTH_IF_COLUMS-1:0] tb_if_colums = 8;
+reg [BITWIDTH_IF_ROWS-1:0] tb_if_rows = 256;
+reg [BITWIDTH_IF_COLUMS-1:0] tb_if_colums = 256;
 reg [BITWIDTH_IF_CHANNELS-1:0] tb_if_channels=3;
-reg [BITWIDTH_W_ROWS-1:0] tb_w_rows=4;
-reg [BITWIDTH_W_COLUMS-1:0] tb_w_colums=5;
+reg [BITWIDTH_W_ROWS-1:0] tb_w_rows=5;
+reg [BITWIDTH_W_COLUMS-1:0] tb_w_colums=2;
 reg [BITWIDTH_IF_CHANNELS-1:0] tb_w_channels=3;
-reg [BITWIDTH_IF_ROWS-1:0] tb_of_rows = 5;
-reg [BITWIDTH_IF_COLUMS-1:0] tb_of_colums=4;
+reg [BITWIDTH_IF_ROWS-1:0] tb_of_rows = 252;
+reg [BITWIDTH_IF_COLUMS-1:0] tb_of_colums=255;
 reg [BITWIDTH_STRIDE-1:0] tb_conv_stride=1;
 reg tb_conv_start;
 reg tb_conv_finished_ok;

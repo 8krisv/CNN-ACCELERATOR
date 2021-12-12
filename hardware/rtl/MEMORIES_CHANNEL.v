@@ -19,7 +19,7 @@
 //#
 //########################################################################*/
 
-module MEMORIES_CHANNEL #(parameter DATA_WIDTH = 16, MEMORIES_SIZE=16384 ,ADDR_WIDTH = 14) (
+module MEMORIES_CHANNEL #(parameter DATA_WIDTH = 16, MEMORIES_SIZE=65536 ,ADDR_WIDTH = 16) (
 
 //////////// INPUTS //////////
 MEMORIES_CHANNEL_Clk,
