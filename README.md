@@ -1,5 +1,5 @@
 # CNN-ACCELERATOR
-Hardware accelerator for convolutional neural networks implemented in Verilog and the C programming language. For more information about this accelerator check the following link https://repositorio.uniandes.edu.co/bitstream/handle/1992/55502/26239.pdf?sequence=1.
+Hardware accelerator for convolutional neural networks implemented in Verilog HDL and the C programming language. For more information about this accelerator check the following link https://repositorio.uniandes.edu.co/bitstream/handle/1992/55502/26239.pdf?sequence=1.
 
 ![arqui_chip](https://user-images.githubusercontent.com/47645091/172915146-1f963266-3a2f-4342-b404-da749a1ba707.png)
 
