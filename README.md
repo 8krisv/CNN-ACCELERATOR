@@ -1,11 +1,11 @@
 # CNN-ACCELERATOR
-Hardware accelerator for convolutional neural networks implemented in Verilog.
+Hardware accelerator for convolutional neural networks implemented in Verilog, a hight level implementation was also made in the C programing lenguage.
 
 ![arqui_chip](https://user-images.githubusercontent.com/47645091/172915146-1f963266-3a2f-4342-b404-da749a1ba707.png)
 
 # DATAFLOW ARCHITECTURE
 
-The dataflow architecture of the accelerator is based in the dataflow BSM (broadcast,stay,migration) introduced by ihyuck Jo
+The dataflow architecture of the accelerator is based in the dataflow BSM (broadcast, stay, migration) introduced by ihyuck Jo
 in the following paper https://ieeexplore.ieee.org/document/8374840.
 
 
@@ -13,5 +13,10 @@ in the following paper https://ieeexplore.ieee.org/document/8374840.
 
 
 # AVALON SYSTEM
+
+The convolution accelerator architecture was deployed in the FPGA DE0-Nano-Soc in conjunction with
+a NIOS II processor, an On-Chip Ram, and an On-Chip Dual Port Ram connected via an Avalon
+interconnect fabric. Intel Fpga Monitor Software Program was used to read the results of the convolution
+performed by the accelerator on the on-chip dual port ram.
 
 ![Esquematico_sys](https://user-images.githubusercontent.com/47645091/172916317-0a5fd750-984f-44cd-a74a-4ec11ee7fed0.png)
