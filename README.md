@@ -5,7 +5,7 @@ Hardware accelerator for convolutional neural networks implemented in Verilog HD
 
 # DATAFLOW ARCHITECTURE
 
-The dataflow architecture of the accelerator is an adaptation of the the BSM (broadcast, stay, migration)  dataflow introduced by Jihyuck Jo which is Energy-Efficient because it reduces the number of redundant accesses to the off-chip memory.
+The dataflow architecture of the accelerator is an adaptation of the the BSM (broadcast, stay, migration)  dataflow introduced by Jihyuck Jo et al. Which  is Energy-Efficient because it reduces the number of redundant accesses to the off-chip memory.
 
 
 ![detailed_arq](https://user-images.githubusercontent.com/47645091/172915726-80be5ca7-0af3-4ce4-ba30-2a793b681a7f.png)
