@@ -1,11 +1,12 @@
 # CNN-ACCELERATOR
-Hardware accelerator for convolutional neural networks implemented in Verilog and a high level implementation in the C programing lenguage.
+Hardware accelerator for convolutional neural networks implemented in Verilog and the C programing lenguage.
 
 ![arqui_chip](https://user-images.githubusercontent.com/47645091/172915146-1f963266-3a2f-4342-b404-da749a1ba707.png)
 
 # DATAFLOW ARCHITECTURE
 
 The dataflow architecture of the accelerator is based in the dataflow BSM (broadcast, stay, migration) introduced by ihyuck Jo et al. 
+in the following paper https://ieeexplore.ieee.org/document/8374840.
 
 
 ![detailed_arq](https://user-images.githubusercontent.com/47645091/172915726-80be5ca7-0af3-4ce4-ba30-2a793b681a7f.png)
