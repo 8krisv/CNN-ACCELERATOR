@@ -31,7 +31,7 @@ static void CreateImage(Image* img, int width,int height,int channels, bool zero
     size_t size= width*height*channels;
 
     if (zeros){
-        img->data=calloc(size,1); /*devuelve puntero a la memorua de ceros asignada*/
+        img->data=calloc(size,1); /*devuelve puntero a la memoria de ceros asignada*/
     }
     else{
         img->data=malloc(size);

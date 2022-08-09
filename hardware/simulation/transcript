@@ -1,408 +1,721 @@
 # reading modelsim.ini
 # Loading project AcceleratorSimulations
-# Compile of ACCELERATOR_tb.v was successful.
-vsim work.ACCELERATOR_tb
-# vsim work.ACCELERATOR_tb 
-# Start time: 18:45:27 on Dec 11,2021
-# Loading work.ACCELERATOR_tb
-# Loading work.RAM_SIMUL
-# Loading work.ACCELERATOR
-# Loading work.OWMC
-# Loading work.RAM
-# Loading work.COUNTER_NEG
-# Loading work.COUNTER_OFFSET_NEG
-# Loading work.OFFSET_ADDER
-# Loading work.OWMC_STATEMACHINE
-# Loading work.OFMI
-# Loading work.COUNTER_OFFSET_POS
-# Loading work.OFMI_STATEMACHINE
-# Loading work.DEMUX_1_2
-# Loading work.OMDC
-# Loading work.COUNTER_POS
-# Loading work.COUNTER_LOAD_NEG
-# Loading work.STRIDE_CLEAR
-# Loading work.OMDC_STATEMACHINE
-# Loading work.ONEDCONV
-# Loading work.ONEDCONV_STATEMACHINE
-# Loading work.COUNTER_NEXT_ROW
-# Loading work.ONEDCONV_SET_EN
-# Loading work.SET_CLR
-# Loading work.ONEDCONV_OEN
-# Loading work.CONV_SELECTOR
-# Loading work.DEMUX_169
-# Loading work.WREG
-# Loading work.PE
-# Loading work.OUT_REG
-# Loading work.PEDC
-# Loading work.PEDC_STATEMACHINE
-# Loading work.FCLOCK
-# Loading work.FIFO
-# Loading work.MUX_2_1
-# Loading work.CALC_UNIT
-# Loading work.MUX_169
-# Loading work.MEMORIES_CHANNEL
-# Loading work.DEMUX_1_3
-# Loading work.COUNTER_CH
-# Loading work.CHANNEL_MEM
-# Loading work.MEMCH_STATEMACHINE
-# Loading work.ADDER
-# Loading work.SIMPLE_COUNTER
-# Loading work.ADDER_STATEMACHINE
-# Loading work.RBUS
-# Loading work.RBUS_STATEMACHINE
-# Loading work.MUXDC
-# Loading work.MUXDC_STATEMACHINE
-# Loading work.MAIN_STM
-do ACC3.do
-# (vsim-4077) Logging very large object: /ACCELERATOR_tb/OffchipRam/Ram_Array
-add wave -position 32  sim:/ACCELERATOR_tb/Accelerator/Pe9/PE_Out
-add wave -position 33  sim:/ACCELERATOR_tb/Accelerator/Pe10/PE_Out
-add wave -position 34  sim:/ACCELERATOR_tb/Accelerator/Ofifo1/Fifo_Array
-add wave -position 35  sim:/ACCELERATOR_tb/Accelerator/Ofifo3/Fifo_Array
-add wave -position 36  sim:/ACCELERATOR_tb/Accelerator/Ofifo5/Fifo_Array
-add wave -position 37  sim:/ACCELERATOR_tb/Accelerator/Ofifo7/Fifo_Array
-add wave -position 38  sim:/ACCELERATOR_tb/Accelerator/Ofifo9/Fifo_Array
-run -all
-# Loading Ram...
-# ** Warning: (vsim-PLI-3407) Too many data words read on line 196609 of file "../../files/IF/memv/69-vin.txt". (Current address [196608], address range [0:196607])    : /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RAM_SIMUL.v(61)
-#    Time: 0 ps  Iteration: 0  Instance: /ACCELERATOR_tb/OffchipRam
-# Ram successfully loaded.
-# ** Note: $stop    : /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/ACCELERATOR_tb.v(166)
-#    Time: 5224200 ns  Iteration: 1  Instance: /ACCELERATOR_tb
-# Break in Module ACCELERATOR_tb at /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/ACCELERATOR_tb.v line 166
-quit -sim
-# End time: 19:12:58 on Dec 11,2021, Elapsed time: 0:27:31
-# Errors: 0, Warnings: 3
 # Compile of MEMORIES_CHANNEL.v was successful.
-vsim work.ACCELERATOR_tb
-# vsim work.ACCELERATOR_tb 
-# Start time: 19:13:15 on Dec 11,2021
-# Loading work.ACCELERATOR_tb
-# Loading work.RAM_SIMUL
-# Loading work.ACCELERATOR
-# Loading work.OWMC
-# Loading work.RAM
-# Loading work.COUNTER_NEG
-# Loading work.COUNTER_OFFSET_NEG
-# Loading work.OFFSET_ADDER
-# Loading work.OWMC_STATEMACHINE
-# Loading work.OFMI
-# Loading work.COUNTER_OFFSET_POS
-# Loading work.OFMI_STATEMACHINE
-# Loading work.DEMUX_1_2
-# Loading work.OMDC
-# Loading work.COUNTER_POS
-# Loading work.COUNTER_LOAD_NEG
-# Loading work.STRIDE_CLEAR
-# Loading work.OMDC_STATEMACHINE
-# Loading work.ONEDCONV
-# Loading work.ONEDCONV_STATEMACHINE
-# Loading work.COUNTER_NEXT_ROW
-# Loading work.ONEDCONV_SET_EN
-# Loading work.SET_CLR
-# Loading work.ONEDCONV_OEN
-# Loading work.CONV_SELECTOR
-# Loading work.DEMUX_169
-# Loading work.WREG
-# Loading work.PE
-# Loading work.OUT_REG
-# Loading work.PEDC
-# Loading work.PEDC_STATEMACHINE
-# Loading work.FCLOCK
-# Loading work.FIFO
-# Loading work.MUX_2_1
-# Loading work.CALC_UNIT
-# Loading work.MUX_169
-# Loading work.MEMORIES_CHANNEL
-# Loading work.DEMUX_1_3
-# Loading work.COUNTER_CH
-# Loading work.CHANNEL_MEM
-# Loading work.MEMCH_STATEMACHINE
+# reading modelsim.ini
+# reading /home/krisv/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project riscv_core_simulation
+# Compile of ACU.v was successful.
+# Compile of ADDER.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BRU.v was successful.
+# Compile of CORE.v was successful.
+# Compile of DATAMEM.v was successful.
+# Compile of DEMUX_1_32.v was successful.
+# Compile of IMM_GEN.v was successful.
+# Compile of IMRD.v was successful.
+# Compile of INS_MEM.v was successful.
+# Compile of JCU.v was successful.
+# Compile of LSU.v was successful.
+# Compile of MCU.v was successful.
+# Compile of MUX_2_1.v was successful.
+# Compile of MUX_4_1.v was successful.
+# Compile of MUX_32_1.v was successful.
+# Compile of RAM.v was successful.
+# Compile of REG_FILE.v was successful.
+# Compile of REG_NEG.v was successful.
+# Compile of REG_POS.v was successful.
+# 20 compiles, 0 failed with no errors.
+# Compile of DATAMEM.v was successful.
+# Compile of CORE_tb.v was successful.
+vsim work.CORE_tb
+# vsim work.CORE_tb 
+# Start time: 22:01:49 on Jul 07,2022
+# Loading work.CORE_tb
+# Loading work.CORE
+# Loading work.REG_POS
 # Loading work.ADDER
-# Loading work.SIMPLE_COUNTER
-# Loading work.ADDER_STATEMACHINE
-# Loading work.RBUS
-# Loading work.RBUS_STATEMACHINE
-# Loading work.MUXDC
-# Loading work.MUXDC_STATEMACHINE
-# Loading work.MAIN_STM
-do ACC3.do
-# (vsim-4077) Logging very large object: /ACCELERATOR_tb/Accelerator/Memories_Channel/Chmem1/Ram_Array
-# (vsim-4077) Logging very large object: /ACCELERATOR_tb/Accelerator/Memories_Channel/Chmem2/Ram_Array
-# (vsim-4077) Logging very large object: /ACCELERATOR_tb/Accelerator/Memories_Channel/Chmem3/Ram_Array
-# (vsim-4077) Logging very large object: /ACCELERATOR_tb/OffchipRam/Ram_Array
+# Loading work.MUX_2_1
+# Loading work.IMM_GEN
+# Loading work.REG_FILE
+# Loading work.DEMUX_1_32
+# Loading work.MUX_32_1
+# Loading work.ACU
+# Loading work.ALU
+# Loading work.JCU
+# Loading work.BRU
+# Loading work.LSU
+# Loading work.MUX_4_1
+# Loading work.IMRD
+# Loading work.MCU
+# Loading work.INS_MEM
+# ** Error: (vsim-3037) Missing instance name in instantiation of 'DATAMEM'.
+#    Time: 0 ps  Iteration: 0  Instance: /CORE_tb File: /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v Line: 99
+# Error loading design
+# End time: 22:01:49 on Jul 07,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 9
+# Compile of CORE_tb.v was successful.
+vsim work.CORE_tb
+# vsim work.CORE_tb 
+# Start time: 22:04:22 on Jul 07,2022
+# Loading work.CORE_tb
+# Loading work.CORE
+# Loading work.REG_POS
+# Loading work.ADDER
+# Loading work.MUX_2_1
+# Loading work.IMM_GEN
+# Loading work.REG_FILE
+# Loading work.DEMUX_1_32
+# Loading work.MUX_32_1
+# Loading work.ACU
+# Loading work.ALU
+# Loading work.JCU
+# Loading work.BRU
+# Loading work.LSU
+# Loading work.MUX_4_1
+# Loading work.IMRD
+# Loading work.MCU
+# Loading work.INS_MEM
+# Loading work.DATAMEM
+add wave -position end  sim:/CORE_tb/RiscCore/CORE_Clk_in
+add wave -position end  sim:/CORE_tb/tb_clk_50
+add wave -position end  sim:/CORE_tb/tb_reset
+add wave -position end  sim:/CORE_tb/RiscCore/Pc/REG_Data_OutBUS
+add wave -position end  sim:/CORE_tb/RiscCore/Iregister/REG_Data_OutBUS
+add wave -position end  sim:/CORE_tb/RiscCore/Imm_Generation_OutBUS_Wire
+# Can't move the Now cursor.
+add wave -position 4  sim:/CORE_tb/RiscCore/Rs1_InBUS_Wire
+add wave -position 5  sim:/CORE_tb/RiscCore/Rs2_InBUS_Wire
+add wave -position 6  sim:/CORE_tb/RiscCore/Rd_InBUS_Wire
+add wave -position 7  sim:/CORE_tb/RiscCore/Opcode_InBUS_Wire
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/simulation/CORE.do
+# Can't move the Now cursor.
+add wave -position end  sim:/CORE_tb/RiscCore/Mcu/MCU_Alu_Select_Immediate_Mux
+add wave -position end  sim:/CORE_tb/RiscCore/Mcu/MCU_AluOp_OutBUS
+add wave -position end  sim:/CORE_tb/RiscCore/Mcu/MCU_DataMem_Read
+add wave -position end  sim:/CORE_tb/RiscCore/Mcu/MCU_DataMem_Write
+add wave -position end  sim:/CORE_tb/RiscCore/Mcu/MCU_Lsu_En
+add wave -position end  sim:/CORE_tb/RiscCore/Mcu/MCU_Not_Branch_Jump_Op
+add wave -position end  sim:/CORE_tb/RiscCore/Mcu/MCU_Opcode_InBUS
+add wave -position end  sim:/CORE_tb/RiscCore/Mcu/MCU_RegFile_Mux_OutBUS
+add wave -position end  sim:/CORE_tb/RiscCore/Mcu/MCU_RegFile_Write
+add wave -position end  sim:/CORE_tb/RiscCore/Acu/ACU_AluControl_OutBUS
+add wave -position end  sim:/CORE_tb/RiscCore/Alu/Out
+add wave -position end  sim:/CORE_tb/RiscCore/Register_File/Reg1_Output
+add wave -position end  sim:/CORE_tb/RiscCore/Register_File/Reg2_Output
+add wave -position end  sim:/CORE_tb/RiscCore/Register_File/Reg3_Output
 run -all
-# Loading Ram...
-# ** Warning: (vsim-PLI-3407) Too many data words read on line 196609 of file "../../files/IF/memv/69-vin.txt". (Current address [196608], address range [0:196607])    : /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/RAM_SIMUL.v(61)
-#    Time: 0 ps  Iteration: 0  Instance: /ACCELERATOR_tb/OffchipRam
+# Loading Instruction Memory...
+# ** Warning: (vsim-PLI-3406) Too many digits (32) in data on line 1 of file "../programs/test.in". (Max is 8.)    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/rtl/INS_MEM.v(62)
+#    Time: 0 ps  Iteration: 0  Instance: /CORE_tb/ins_mem
 # Ram successfully loaded.
-# ** Note: $stop    : /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/ACCELERATOR_tb.v(166)
-#    Time: 5224200 ns  Iteration: 1  Instance: /ACCELERATOR_tb
-# Break in Module ACCELERATOR_tb at /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/ACCELERATOR_tb.v line 166
-quit -sim
-# End time: 19:14:52 on Dec 11,2021, Elapsed time: 0:01:37
-# Errors: 0, Warnings: 3
-vsim work.ACC_AVALON_INTERFACE_tb
-# vsim work.ACC_AVALON_INTERFACE_tb 
-# Start time: 19:16:27 on Dec 11,2021
-# Loading sv_std.std
-# Loading work.ACC_AVALON_INTERFACE_tb
-# Loading work.RAM_SIM
-# Loading work.ACCELERATOR_AVALON_INTERFACE
-# Loading work.CONFI_REGS
-# Loading work.OUT_REG
-# Loading work.DEMUX_1_11
-# Loading work.ACCELERATOR
-# Loading work.OWMC
-# Loading work.RAM
-# Loading work.COUNTER_NEG
-# Loading work.COUNTER_OFFSET_NEG
-# Loading work.OFFSET_ADDER
-# Loading work.OWMC_STATEMACHINE
-# Loading work.OFMI
-# Loading work.COUNTER_OFFSET_POS
-# Loading work.OFMI_STATEMACHINE
-# Loading work.DEMUX_1_2
-# Loading work.OMDC
-# Loading work.COUNTER_POS
-# Loading work.COUNTER_LOAD_NEG
-# Loading work.STRIDE_CLEAR
-# Loading work.OMDC_STATEMACHINE
-# Loading work.ONEDCONV
-# Loading work.ONEDCONV_STATEMACHINE
-# Loading work.COUNTER_NEXT_ROW
-# Loading work.ONEDCONV_SET_EN
-# Loading work.SET_CLR
-# Loading work.ONEDCONV_OEN
-# Loading work.CONV_SELECTOR
-# Loading work.DEMUX_169
-# Loading work.WREG
-# Loading work.PE
-# Loading work.PEDC
-# Loading work.PEDC_STATEMACHINE
-# Loading work.FCLOCK
-# Loading work.FIFO
-# Loading work.MUX_2_1
-# Loading work.CALC_UNIT
-# Loading work.MUX_169
-# Loading work.MEMORIES_CHANNEL
-# Loading work.DEMUX_1_3
-# Loading work.COUNTER_CH
-# Loading work.CHANNEL_MEM
-# Loading work.MEMCH_STATEMACHINE
-# Loading work.ADDER
-# Loading work.SIMPLE_COUNTER
-# Loading work.ADDER_STATEMACHINE
-# Loading work.RBUS
-# Loading work.RBUS_STATEMACHINE
-# Loading work.MUXDC
-# Loading work.MUXDC_STATEMACHINE
-# Loading work.MAIN_STM
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(140)
+#    Time: 100 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 140
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/simulation/CORE.do
+add wave -position end  sim:/CORE_tb/ins_mem/Ram_Array
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/simulation/CORE.do
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 run -all
-# Iniciando Test...
-# Procesando archivo ../../files/IF/memv/test-vin.txt ...
-# Guardando archivo ../../files/OF/simout/test-out.txt ...
-# Procesando archivo ../../files/IF/memv/1-vin.txt ...
-# Guardando archivo ../../files/OF/simout/1-out.txt ...
-# Procesando archivo ../../files/IF/memv/2-vin.txt ...
-# Guardando archivo ../../files/OF/simout/2-out.txt ...
-# Procesando archivo ../../files/IF/memv/3-vin.txt ...
-# Guardando archivo ../../files/OF/simout/3-out.txt ...
-# Procesando archivo ../../files/IF/memv/4-vin.txt ...
-# Guardando archivo ../../files/OF/simout/4-out.txt ...
-# Procesando archivo ../../files/IF/memv/5-vin.txt ...
-# Guardando archivo ../../files/OF/simout/5-out.txt ...
-# Procesando archivo ../../files/IF/memv/6-vin.txt ...
-# Guardando archivo ../../files/OF/simout/6-out.txt ...
-# Procesando archivo ../../files/IF/memv/7-vin.txt ...
-# Guardando archivo ../../files/OF/simout/7-out.txt ...
-# Procesando archivo ../../files/IF/memv/8-vin.txt ...
-# Guardando archivo ../../files/OF/simout/8-out.txt ...
-# Procesando archivo ../../files/IF/memv/9-vin.txt ...
-# Guardando archivo ../../files/OF/simout/9-out.txt ...
-# Procesando archivo ../../files/IF/memv/10-vin.txt ...
-# Guardando archivo ../../files/OF/simout/10-out.txt ...
-# Procesando archivo ../../files/IF/memv/11-vin.txt ...
-# Guardando archivo ../../files/OF/simout/11-out.txt ...
-# Procesando archivo ../../files/IF/memv/12-vin.txt ...
-# Guardando archivo ../../files/OF/simout/12-out.txt ...
-# Procesando archivo ../../files/IF/memv/13-vin.txt ...
-# Guardando archivo ../../files/OF/simout/13-out.txt ...
-# Procesando archivo ../../files/IF/memv/14-vin.txt ...
-# Guardando archivo ../../files/OF/simout/14-out.txt ...
-# Procesando archivo ../../files/IF/memv/15-vin.txt ...
-# Guardando archivo ../../files/OF/simout/15-out.txt ...
-# Procesando archivo ../../files/IF/memv/16-vin.txt ...
-# Guardando archivo ../../files/OF/simout/16-out.txt ...
-# Procesando archivo ../../files/IF/memv/17-vin.txt ...
-# Guardando archivo ../../files/OF/simout/17-out.txt ...
-# Procesando archivo ../../files/IF/memv/18-vin.txt ...
-# Guardando archivo ../../files/OF/simout/18-out.txt ...
-# Procesando archivo ../../files/IF/memv/19-vin.txt ...
-# Guardando archivo ../../files/OF/simout/19-out.txt ...
-# Procesando archivo ../../files/IF/memv/20-vin.txt ...
-# Guardando archivo ../../files/OF/simout/20-out.txt ...
-# Procesando archivo ../../files/IF/memv/21-vin.txt ...
-# Guardando archivo ../../files/OF/simout/21-out.txt ...
-# Procesando archivo ../../files/IF/memv/22-vin.txt ...
-# Guardando archivo ../../files/OF/simout/22-out.txt ...
-# Procesando archivo ../../files/IF/memv/23-vin.txt ...
-# Guardando archivo ../../files/OF/simout/23-out.txt ...
-# Procesando archivo ../../files/IF/memv/24-vin.txt ...
-# Guardando archivo ../../files/OF/simout/24-out.txt ...
-# Procesando archivo ../../files/IF/memv/25-vin.txt ...
-# Guardando archivo ../../files/OF/simout/25-out.txt ...
-# Procesando archivo ../../files/IF/memv/26-vin.txt ...
-# Guardando archivo ../../files/OF/simout/26-out.txt ...
-# Procesando archivo ../../files/IF/memv/27-vin.txt ...
-# Guardando archivo ../../files/OF/simout/27-out.txt ...
-# Procesando archivo ../../files/IF/memv/28-vin.txt ...
-# Guardando archivo ../../files/OF/simout/28-out.txt ...
-# Procesando archivo ../../files/IF/memv/29-vin.txt ...
-# Guardando archivo ../../files/OF/simout/29-out.txt ...
-# Procesando archivo ../../files/IF/memv/30-vin.txt ...
-# Guardando archivo ../../files/OF/simout/30-out.txt ...
-# Procesando archivo ../../files/IF/memv/31-vin.txt ...
-# Guardando archivo ../../files/OF/simout/31-out.txt ...
-# Procesando archivo ../../files/IF/memv/32-vin.txt ...
-# Guardando archivo ../../files/OF/simout/32-out.txt ...
-# Procesando archivo ../../files/IF/memv/33-vin.txt ...
-# Guardando archivo ../../files/OF/simout/33-out.txt ...
-# Procesando archivo ../../files/IF/memv/34-vin.txt ...
-# Guardando archivo ../../files/OF/simout/34-out.txt ...
-# Procesando archivo ../../files/IF/memv/35-vin.txt ...
-# Guardando archivo ../../files/OF/simout/35-out.txt ...
-# Procesando archivo ../../files/IF/memv/36-vin.txt ...
-# Guardando archivo ../../files/OF/simout/36-out.txt ...
-# Procesando archivo ../../files/IF/memv/37-vin.txt ...
-# Guardando archivo ../../files/OF/simout/37-out.txt ...
-# Procesando archivo ../../files/IF/memv/38-vin.txt ...
-# Guardando archivo ../../files/OF/simout/38-out.txt ...
-# Procesando archivo ../../files/IF/memv/39-vin.txt ...
-# Guardando archivo ../../files/OF/simout/39-out.txt ...
-# Procesando archivo ../../files/IF/memv/40-vin.txt ...
-# Guardando archivo ../../files/OF/simout/40-out.txt ...
-# Procesando archivo ../../files/IF/memv/41-vin.txt ...
-# Guardando archivo ../../files/OF/simout/41-out.txt ...
-# Procesando archivo ../../files/IF/memv/42-vin.txt ...
-# Guardando archivo ../../files/OF/simout/42-out.txt ...
-# Procesando archivo ../../files/IF/memv/43-vin.txt ...
-# Guardando archivo ../../files/OF/simout/43-out.txt ...
-# Procesando archivo ../../files/IF/memv/44-vin.txt ...
-# Guardando archivo ../../files/OF/simout/44-out.txt ...
-# Procesando archivo ../../files/IF/memv/45-vin.txt ...
-# Guardando archivo ../../files/OF/simout/45-out.txt ...
-# Procesando archivo ../../files/IF/memv/46-vin.txt ...
-# Guardando archivo ../../files/OF/simout/46-out.txt ...
-# Procesando archivo ../../files/IF/memv/47-vin.txt ...
-# Guardando archivo ../../files/OF/simout/47-out.txt ...
-# Procesando archivo ../../files/IF/memv/48-vin.txt ...
-# Guardando archivo ../../files/OF/simout/48-out.txt ...
-# Procesando archivo ../../files/IF/memv/49-vin.txt ...
-# Guardando archivo ../../files/OF/simout/49-out.txt ...
-# Procesando archivo ../../files/IF/memv/50-vin.txt ...
-# Guardando archivo ../../files/OF/simout/50-out.txt ...
-# Procesando archivo ../../files/IF/memv/51-vin.txt ...
-# Guardando archivo ../../files/OF/simout/51-out.txt ...
-# Procesando archivo ../../files/IF/memv/52-vin.txt ...
-# Guardando archivo ../../files/OF/simout/52-out.txt ...
-# Procesando archivo ../../files/IF/memv/53-vin.txt ...
-# Guardando archivo ../../files/OF/simout/53-out.txt ...
-# Procesando archivo ../../files/IF/memv/54-vin.txt ...
-# Guardando archivo ../../files/OF/simout/54-out.txt ...
-# Procesando archivo ../../files/IF/memv/55-vin.txt ...
-# Guardando archivo ../../files/OF/simout/55-out.txt ...
-# Procesando archivo ../../files/IF/memv/56-vin.txt ...
-# Guardando archivo ../../files/OF/simout/56-out.txt ...
-# Procesando archivo ../../files/IF/memv/57-vin.txt ...
-# Guardando archivo ../../files/OF/simout/57-out.txt ...
-# Procesando archivo ../../files/IF/memv/58-vin.txt ...
-# Guardando archivo ../../files/OF/simout/58-out.txt ...
-# Procesando archivo ../../files/IF/memv/59-vin.txt ...
-# Guardando archivo ../../files/OF/simout/59-out.txt ...
-# Procesando archivo ../../files/IF/memv/60-vin.txt ...
-# Guardando archivo ../../files/OF/simout/60-out.txt ...
-# Procesando archivo ../../files/IF/memv/61-vin.txt ...
-# Guardando archivo ../../files/OF/simout/61-out.txt ...
-# Procesando archivo ../../files/IF/memv/62-vin.txt ...
-# Guardando archivo ../../files/OF/simout/62-out.txt ...
-# Procesando archivo ../../files/IF/memv/63-vin.txt ...
-# Guardando archivo ../../files/OF/simout/63-out.txt ...
-# Procesando archivo ../../files/IF/memv/64-vin.txt ...
-# Guardando archivo ../../files/OF/simout/64-out.txt ...
-# Procesando archivo ../../files/IF/memv/65-vin.txt ...
-# Guardando archivo ../../files/OF/simout/65-out.txt ...
-# Procesando archivo ../../files/IF/memv/66-vin.txt ...
-# Guardando archivo ../../files/OF/simout/66-out.txt ...
-# Procesando archivo ../../files/IF/memv/67-vin.txt ...
-# Guardando archivo ../../files/OF/simout/67-out.txt ...
-# Procesando archivo ../../files/IF/memv/68-vin.txt ...
-# Guardando archivo ../../files/OF/simout/68-out.txt ...
-# Procesando archivo ../../files/IF/memv/69-vin.txt ...
-# Guardando archivo ../../files/OF/simout/69-out.txt ...
-# Procesando archivo ../../files/IF/memv/70-vin.txt ...
-# Guardando archivo ../../files/OF/simout/70-out.txt ...
-# Procesando archivo ../../files/IF/memv/71-vin.txt ...
-# Guardando archivo ../../files/OF/simout/71-out.txt ...
-# Procesando archivo ../../files/IF/memv/72-vin.txt ...
-# Guardando archivo ../../files/OF/simout/72-out.txt ...
-# Procesando archivo ../../files/IF/memv/73-vin.txt ...
-# Guardando archivo ../../files/OF/simout/73-out.txt ...
-# Procesando archivo ../../files/IF/memv/74-vin.txt ...
-# Guardando archivo ../../files/OF/simout/74-out.txt ...
-# Procesando archivo ../../files/IF/memv/75-vin.txt ...
-# Guardando archivo ../../files/OF/simout/75-out.txt ...
-# Procesando archivo ../../files/IF/memv/76-vin.txt ...
-# Guardando archivo ../../files/OF/simout/76-out.txt ...
-# Procesando archivo ../../files/IF/memv/77-vin.txt ...
-# Guardando archivo ../../files/OF/simout/77-out.txt ...
-# Procesando archivo ../../files/IF/memv/78-vin.txt ...
-# Guardando archivo ../../files/OF/simout/78-out.txt ...
-# Procesando archivo ../../files/IF/memv/79-vin.txt ...
-# Guardando archivo ../../files/OF/simout/79-out.txt ...
-# Procesando archivo ../../files/IF/memv/80-vin.txt ...
-# Guardando archivo ../../files/OF/simout/80-out.txt ...
-# Procesando archivo ../../files/IF/memv/81-vin.txt ...
-# Guardando archivo ../../files/OF/simout/81-out.txt ...
-# Procesando archivo ../../files/IF/memv/82-vin.txt ...
-# Guardando archivo ../../files/OF/simout/82-out.txt ...
-# Procesando archivo ../../files/IF/memv/83-vin.txt ...
-# Guardando archivo ../../files/OF/simout/83-out.txt ...
-# Procesando archivo ../../files/IF/memv/84-vin.txt ...
-# Guardando archivo ../../files/OF/simout/84-out.txt ...
-# Procesando archivo ../../files/IF/memv/85-vin.txt ...
-# Guardando archivo ../../files/OF/simout/85-out.txt ...
-# Procesando archivo ../../files/IF/memv/86-vin.txt ...
-# Guardando archivo ../../files/OF/simout/86-out.txt ...
-# Procesando archivo ../../files/IF/memv/87-vin.txt ...
-# Guardando archivo ../../files/OF/simout/87-out.txt ...
-# Procesando archivo ../../files/IF/memv/88-vin.txt ...
-# Guardando archivo ../../files/OF/simout/88-out.txt ...
-# Procesando archivo ../../files/IF/memv/89-vin.txt ...
-# Guardando archivo ../../files/OF/simout/89-out.txt ...
-# Procesando archivo ../../files/IF/memv/90-vin.txt ...
-# Guardando archivo ../../files/OF/simout/90-out.txt ...
-# Procesando archivo ../../files/IF/memv/91-vin.txt ...
-# Guardando archivo ../../files/OF/simout/91-out.txt ...
-# Procesando archivo ../../files/IF/memv/92-vin.txt ...
-# Guardando archivo ../../files/OF/simout/92-out.txt ...
-# Procesando archivo ../../files/IF/memv/93-vin.txt ...
-# Guardando archivo ../../files/OF/simout/93-out.txt ...
-# Procesando archivo ../../files/IF/memv/94-vin.txt ...
-# Guardando archivo ../../files/OF/simout/94-out.txt ...
-# Procesando archivo ../../files/IF/memv/95-vin.txt ...
-# Guardando archivo ../../files/OF/simout/95-out.txt ...
-# Procesando archivo ../../files/IF/memv/96-vin.txt ...
-# Guardando archivo ../../files/OF/simout/96-out.txt ...
-# Procesando archivo ../../files/IF/memv/97-vin.txt ...
-# Guardando archivo ../../files/OF/simout/97-out.txt ...
-# Procesando archivo ../../files/IF/memv/98-vin.txt ...
-# Guardando archivo ../../files/OF/simout/98-out.txt ...
-# Procesando archivo ../../files/IF/memv/99-vin.txt ...
-# Guardando archivo ../../files/OF/simout/99-out.txt ...
-# Procesando archivo ../../files/IF/memv/100-vin.txt ...
-# Guardando archivo ../../files/OF/simout/100-out.txt ...
-# Total archivos procesados: 101
-# ** Note: $stop    : /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/ACC_AVALON_INTERFACE_tb.sv(469)
-#    Time: 16456285 ns  Iteration: 1  Instance: /ACC_AVALON_INTERFACE_tb
-# Break in Module ACC_AVALON_INTERFACE_tb at /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/testbench/ACC_AVALON_INTERFACE_tb.sv line 469
+# Loading Instruction Memory...
+# ** Warning: (vsim-PLI-3406) Too many digits (32) in data on line 1 of file "../programs/test.in". (Max is 8.)    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/rtl/INS_MEM.v(62)
+#    Time: 0 ps  Iteration: 0  Instance: /CORE_tb/ins_mem
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(140)
+#    Time: 100 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 140
+# Compile of CORE_tb.v was successful.
+# Compile of INS_MEM.v was successful.
+quit -sim
+# End time: 22:22:35 on Jul 07,2022, Elapsed time: 0:18:13
+# Errors: 0, Warnings: 4
+# Compile of ACU.v was successful.
+# Compile of ADDER.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BRU.v was successful.
+# Compile of CORE.v was successful.
+# Compile of DATAMEM.v was successful.
+# Compile of DEMUX_1_32.v was successful.
+# Compile of IMM_GEN.v was successful.
+# Compile of IMRD.v was successful.
+# Compile of INS_MEM.v was successful.
+# Compile of JCU.v was successful.
+# Compile of LSU.v was successful.
+# Compile of MCU.v was successful.
+# Compile of MUX_2_1.v was successful.
+# Compile of MUX_4_1.v was successful.
+# Compile of MUX_32_1.v was successful.
+# Compile of RAM.v was successful.
+# Compile of REG_FILE.v was successful.
+# Compile of REG_NEG.v was successful.
+# Compile of REG_POS.v was successful.
+# Compile of CORE_tb.v was successful.
+# 21 compiles, 0 failed with no errors.
+vsim work.CORE_tb
+# vsim work.CORE_tb 
+# Start time: 22:22:57 on Jul 07,2022
+# Loading work.CORE_tb
+# Loading work.CORE
+# Loading work.REG_POS
+# Loading work.ADDER
+# Loading work.MUX_2_1
+# Loading work.IMM_GEN
+# Loading work.REG_FILE
+# Loading work.DEMUX_1_32
+# Loading work.MUX_32_1
+# Loading work.ACU
+# Loading work.ALU
+# Loading work.JCU
+# Loading work.BRU
+# Loading work.LSU
+# Loading work.MUX_4_1
+# Loading work.IMRD
+# Loading work.MCU
+# Loading work.INS_MEM
+# Loading work.DATAMEM
+do CORE.do
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(139)
+#    Time: 100 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 139
+add wave -position end  sim:/CORE_tb/ins_mem/INS_MEM_Data_Out
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/simulation/CORE.do
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(139)
+#    Time: 100 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 139
+add wave -position 24  sim:/CORE_tb/ins_mem/Shift_Addr
+restart -f
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(139)
+#    Time: 100 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 139
+add wave -position 3  sim:/CORE_tb/RiscCore/Iregister/REG_Data_InBUS
+add wave -position 3  sim:/CORE_tb/RiscCore/Iregister/Internal_Data_Reg
+restart -f
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(139)
+#    Time: 100 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 139
+# Compile of REG_POS.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.REG_POS
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(139)
+#    Time: 100 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 139
+# Compile of REG_POS.v was successful.
+# Compile of IMRD.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.REG_POS
+# Loading work.IMRD
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(139)
+#    Time: 100 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 139
+# Compile of IMRD.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.IMRD
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(139)
+#    Time: 100 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 139
+# Compile of CORE.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.CORE
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(139)
+#    Time: 100 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 139
+add wave -position 3  sim:/CORE_tb/RiscCore/Iregister/REG_Set
+restart -f
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(139)
+#    Time: 100 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 139
+add wave -position 3  sim:/CORE_tb/RiscCore/Imrd/IMRD_read
+restart -f
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(139)
+#    Time: 100 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 139
+# Compile of IMRD.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.IMRD
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(139)
+#    Time: 100 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 139
+# Compile of CORE_tb.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.CORE_tb
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(141)
+#    Time: 100 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 141
+# Compile of CORE.v was successful.
+# Compile of REG_NEG.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.CORE
+# Loading work.REG_NEG
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(141)
+#    Time: 100 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 141
+# Compile of ACU.v was successful.
+# Compile of ADDER.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BRU.v was successful.
+# Compile of CORE.v was successful.
+# Compile of DATAMEM.v was successful.
+# Compile of DEMUX_1_32.v was successful.
+# Compile of IMM_GEN.v was successful.
+# Compile of IMRD.v was successful.
+# Compile of INS_MEM.v was successful.
+# Compile of JCU.v was successful.
+# Compile of LSU.v was successful.
+# Compile of MCU.v was successful.
+# Compile of MUX_2_1.v was successful.
+# Compile of MUX_4_1.v was successful.
+# Compile of MUX_32_1.v was successful.
+# Compile of RAM.v was successful.
+# Compile of REG_FILE.v was successful.
+# Compile of REG_NEG.v was successful.
+# Compile of REG_POS.v was successful.
+# Compile of CORE_tb.v was successful.
+# 21 compiles, 0 failed with no errors.
+# Compile of ACU.v was successful.
+# Compile of ADDER.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BRU.v was successful.
+# Compile of CORE.v was successful.
+# Compile of DATAMEM.v was successful.
+# Compile of DEMUX_1_32.v was successful.
+# Compile of IMM_GEN.v was successful.
+# Compile of IMRD.v was successful.
+# Compile of INS_MEM.v was successful.
+# Compile of JCU.v was successful.
+# Compile of LSU.v was successful.
+# Compile of MCU.v was successful.
+# Compile of MUX_2_1.v was successful.
+# Compile of MUX_4_1.v was successful.
+# Compile of MUX_32_1.v was successful.
+# Compile of RAM.v was successful.
+# Compile of REG_FILE.v was successful.
+# Compile of REG_NEG.v was successful.
+# Compile of REG_POS.v was successful.
+# Compile of CORE_tb.v was successful.
+# 21 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.CORE_tb
+# Loading work.CORE
+# Loading work.REG_NEG
+# Loading work.REG_POS
+# Loading work.ADDER
+# Loading work.MUX_2_1
+# Loading work.IMM_GEN
+# Loading work.REG_FILE
+# Loading work.DEMUX_1_32
+# Loading work.MUX_32_1
+# Loading work.ACU
+# Loading work.ALU
+# Loading work.JCU
+# Loading work.BRU
+# Loading work.LSU
+# Loading work.MUX_4_1
+# Loading work.IMRD
+# Loading work.MCU
+# Loading work.INS_MEM
+# Loading work.DATAMEM
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(141)
+#    Time: 100 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 141
+# Compile of CORE.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.CORE
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(141)
+#    Time: 100 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 141
+# Compile of CORE.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.CORE
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(141)
+#    Time: 100 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 141
+# Compile of ACU.v was successful.
+# Compile of ADDER.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BRU.v was successful.
+# Compile of CORE.v was successful.
+# Compile of DATAMEM.v was successful.
+# Compile of DEMUX_1_32.v was successful.
+# Compile of IMM_GEN.v was successful.
+# Compile of IMRD.v was successful.
+# Compile of INS_MEM.v was successful.
+# Compile of JCU.v was successful.
+# Compile of LSU.v was successful.
+# Compile of MCU.v was successful.
+# Compile of MUX_2_1.v was successful.
+# Compile of MUX_4_1.v was successful.
+# Compile of MUX_32_1.v was successful.
+# Compile of RAM.v was successful.
+# Compile of REG_FILE.v was successful.
+# Compile of REG_NEG.v was successful.
+# Compile of REG_POS.v was successful.
+# Compile of CORE_tb.v was successful.
+# 21 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.CORE_tb
+# Loading work.CORE
+# Loading work.REG_NEG
+# Loading work.ADDER
+# Loading work.MUX_2_1
+# Loading work.IMM_GEN
+# Loading work.REG_FILE
+# Loading work.DEMUX_1_32
+# Loading work.MUX_32_1
+# Loading work.ACU
+# Loading work.ALU
+# Loading work.JCU
+# Loading work.BRU
+# Loading work.LSU
+# Loading work.MUX_4_1
+# Loading work.IMRD
+# Loading work.MCU
+# Loading work.INS_MEM
+# Loading work.DATAMEM
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(141)
+#    Time: 100 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 141
+# Compile of IMRD.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.IMRD
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(141)
+#    Time: 100 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 141
+# Compile of CORE.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.CORE
+# Loading work.REG_POS
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(141)
+#    Time: 100 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 141
+# Compile of ACU.v was successful.
+# Compile of ADDER.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BRU.v was successful.
+# Compile of CORE.v was successful.
+# Compile of DATAMEM.v was successful.
+# Compile of DEMUX_1_32.v was successful.
+# Compile of IMM_GEN.v was successful.
+# Compile of IMRD.v was successful.
+# Compile of INS_MEM.v was successful.
+# Compile of JCU.v was successful.
+# Compile of LSU.v was successful.
+# Compile of MCU.v was successful.
+# Compile of MUX_2_1.v was successful.
+# Compile of MUX_4_1.v was successful.
+# Compile of MUX_32_1.v was successful.
+# Compile of RAM.v was successful.
+# Compile of REG_FILE.v was successful.
+# Compile of REG_NEG.v was successful.
+# Compile of REG_POS.v was successful.
+# Compile of CORE_tb.v was successful.
+# 21 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.CORE_tb
+# Loading work.CORE
+# Loading work.REG_POS
+# Loading work.REG_NEG
+# Loading work.ADDER
+# Loading work.MUX_2_1
+# Loading work.IMM_GEN
+# Loading work.REG_FILE
+# Loading work.DEMUX_1_32
+# Loading work.MUX_32_1
+# Loading work.ACU
+# Loading work.ALU
+# Loading work.JCU
+# Loading work.BRU
+# Loading work.LSU
+# Loading work.MUX_4_1
+# Loading work.IMRD
+# Loading work.MCU
+# Loading work.INS_MEM
+# Loading work.DATAMEM
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(141)
+#    Time: 100 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 141
+# Compile of ACU.v was successful.
+# Compile of ADDER.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BRU.v was successful.
+# Compile of CORE.v was successful.
+# Compile of DATAMEM.v was successful.
+# Compile of DEMUX_1_32.v was successful.
+# Compile of IMM_GEN.v was successful.
+# Compile of IMRD.v was successful.
+# Compile of INS_MEM.v was successful.
+# Compile of JCU.v was successful.
+# Compile of LSU.v was successful.
+# Compile of MCU.v was successful.
+# Compile of MUX_2_1.v was successful.
+# Compile of MUX_4_1.v was successful.
+# Compile of MUX_32_1.v was successful.
+# Compile of RAM.v was successful.
+# Compile of REG_FILE.v was successful.
+# Compile of REG_NEG.v was successful.
+# Compile of REG_POS.v was successful.
+# Compile of CORE_tb.v was successful.
+# 21 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.CORE_tb
+# Loading work.CORE
+# Loading work.REG_POS
+# Loading work.REG_NEG
+# Loading work.ADDER
+# Loading work.MUX_2_1
+# Loading work.IMM_GEN
+# Loading work.REG_FILE
+# Loading work.DEMUX_1_32
+# Loading work.MUX_32_1
+# Loading work.ACU
+# Loading work.ALU
+# Loading work.JCU
+# Loading work.BRU
+# Loading work.LSU
+# Loading work.MUX_4_1
+# Loading work.IMRD
+# Loading work.MCU
+# Loading work.INS_MEM
+# Loading work.DATAMEM
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(141)
+#    Time: 100 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 141
+# Compile of IMRD.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.IMRD
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(141)
+#    Time: 100 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 141
+# Compile of CORE_tb.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.CORE_tb
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(143)
+#    Time: 100 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 143
+# Compile of IMRD.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.IMRD
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(143)
+#    Time: 100 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 143
+# Compile of IMRD.v was successful.
+# Compile of IMRD.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.IMRD
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(143)
+#    Time: 100 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 143
+# Compile of IMRD.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.IMRD
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(143)
+#    Time: 100 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 143
+add wave -position 6  sim:/CORE_tb/RiscCore/Iregister/Internal_Signal_Reg
+restart -f
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(143)
+#    Time: 100 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 143
+add wave -position 27  sim:/CORE_tb/RiscCore/Register_File/Reg4_Output
+restart -f
+# Compile of CORE_tb.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.CORE_tb
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(144)
+#    Time: 110 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 144
+# Compile of CORE_tb.v was successful.
+# Compile of CORE_tb.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.CORE_tb
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(146)
+#    Time: 110 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 146
+# Compile of CORE_tb.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.CORE_tb
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(144)
+#    Time: 110 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 144
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(144)
+#    Time: 110 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 144
+# Compile of CORE_tb.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.CORE_tb
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(147)
+#    Time: 110 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 147
+restart -f
+# Compile of CORE_tb.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.CORE_tb
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(147)
+#    Time: 110 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 147
+add wave -position 4  sim:/CORE_tb/RiscCore/Iregister/REG_Reset
+restart -f
+run -all
+# Loading Instruction Memory...
+# Ram successfully loaded.
+# ** Note: $stop    : /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v(147)
+#    Time: 110 ns  Iteration: 1  Instance: /CORE_tb
+# Break in Module CORE_tb at /home/krisv/Documentos/maestria/Arquitectura/risc-v-core/testbench/CORE_tb.v line 147
+quit -sim
+# End time: 08:30:33 on Jul 08,2022, Elapsed time: 10:07:36
+# Errors: 0, Warnings: 2
+# Compile of RCU.v was successful.
+# Compile of CORE.v was successful.
+# can't read "Startup(-L)": no such element in array
+# Load canceled
+# Compile of ACU.v was successful.
+# Compile of ADDER.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BRU.v was successful.
+# Compile of CORE.v was successful.
+# Compile of DATAMEM.v was successful.
+# Compile of DEMUX_1_32.v was successful.
+# Compile of IMM_GEN.v was successful.
+# Compile of INS_MEM.v was successful.
+# Compile of JCU.v was successful.
+# Compile of LSU.v was successful.
+# Compile of MCU.v was successful.
+# Compile of MUX_2_1.v was successful.
+# Compile of MUX_4_1.v was successful.
+# Compile of MUX_32_1.v was successful.
+# Compile of RAM.v was successful.
+# Compile of REG_FILE.v was successful.
+# Compile of REG_NEG.v was successful.
+# Compile of REG_POS.v was successful.
+# Compile of CORE_tb.v was successful.
+# Compile of RCU.v was successful.
+# 21 compiles, 0 failed with no errors.
+# can't read "Startup(-L)": no such element in array
+# Load canceled

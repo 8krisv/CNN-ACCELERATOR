@@ -636,7 +636,7 @@ R11
 R8
 n@m@e@m@c@h_@s@t@a@t@e@m@a@c@h@i@n@e
 vMEMORIES_CHANNEL
-!s110 1639267984
+!s110 1657246550
 !i10b 1
 !s100 E:BZ:Pz4Eb;o30CI]_Q:P1
 R2
@@ -646,13 +646,13 @@ R4
 w1639267885
 8/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MEMORIES_CHANNEL.v
 F/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MEMORIES_CHANNEL.v
-!i122 3272
+!i122 3273
 L0 22 198
 R5
 r1
 !s85 0
 31
-!s108 1639267984.000000
+!s108 1657246550.000000
 !s107 /home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MEMORIES_CHANNEL.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/krisv/Documentos/Tesis-2021-2/CNN_ Accelerator/hardware/rtl/MEMORIES_CHANNEL.v|
 !i113 1

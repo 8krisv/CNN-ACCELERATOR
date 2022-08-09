@@ -2,7 +2,7 @@
 //# Memory channel controller
 //#########################################################################
 //#
-//# Copyright (C) 2021 Jose Maria Jaramillo Hoyos ACCELERATOR_DATA_OUT
+//# Copyright (C) 2021 Jose Maria Jaramillo Hoyos 
 //# 
 //# This program is free software: you can redistribute it and/or modify
 //# it under the terms of the GNU General Public License as published by
